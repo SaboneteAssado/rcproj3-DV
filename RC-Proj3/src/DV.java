@@ -47,8 +47,8 @@ public class DV implements RoutingAlgorithm
 
 	public void initalise()
 	{
-		DVRoutingTableEntry rte = new DVRoutingTableEntry(thisRouter.getId(), LOCAL, 0, 0);
-		rt.put(rte.d, rte);
+		RoutingTableEntry rte = new DVRoutingTableEntry(thisRouter.getId(), LOCAL, 0, 0);
+		rt.put(rte.getDestination(), rte);
 	}
 
 	public int getNextHop(int destination)
@@ -56,9 +56,31 @@ public class DV implements RoutingAlgorithm
 		return destination;
 	}
 
+	//perguntar ao prof
 	public void tidyTable()
 	{
-		
+		//ver se link morreu ou ta ativo
+		Link[] links = thisRouter.getLinks();
+		int router;
+		for ( int i = 0; i<links.length; i++) {
+			if ( !links[i].isUp() ) {
+				router = getEnd(i, links);
+				RoutingTableEntry rte = new DVRoutingTableEntry(router, links[i].getInterface(router), INFINITY, 0);
+				rt.put(router, rte);
+			}
+			else {
+				router = getEnd(i, links);
+				RoutingTableEntry rte = new DVRoutingTableEntry(router, links[i].getInterface(router), thisRouter.getInterfaceWeight(links[i].getInterface(router)), 0);
+				rt.put(router, rte);
+			}
+		}
+	}
+	
+	private int getEnd( int i, Link[] links) {
+		int router = links[i].getRouter(0);
+		if ( router == thisRouter.getId())
+			router = links[i].getRouter(1);
+		return router;
 	}
 
 	public Packet generateRoutingPacket(int iface)
@@ -74,6 +96,10 @@ public class DV implements RoutingAlgorithm
 
 	public void processRoutingPacket(Packet p, int iface)
 	{
+		if ( rt.get(p.getSource()) == null ) {
+			RoutingTableEntry rte = new DVRoutingTableEntry(p.getSource(), iface, thisRouter.getInterfaceWeight(iface), p.get_ttl());
+			rt.put(p.getSource(), rte);
+		}
 		Payload pl = p.getPayload();
 		Vector<Object> v = pl.getData();
 		Iterator<Object> it = v.iterator();
