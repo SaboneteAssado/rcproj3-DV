@@ -1,0 +1,5706 @@
+Loading configuration : test5.cfg
+Reading file test5.cfg
+Preverse on
+Created Router 0 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 1 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 2 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 3 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 4 has 5 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 5 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 6 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 7 has 8 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 8 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 9 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 10 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 11 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 12 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 13 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 14 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 15 has 4 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 16 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 17 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 18 has 4 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 19 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 20 has 8 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 21 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 22 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 23 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 24 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Created Router 25 has 1 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries on
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:1 I0:0 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:1 I0:0 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:2 I0:1 W0:10)<-->(R1:3 I1:2 W1:10)
+Adding link Link (R0:2 I0:1 W0:10)<-->(R1:3 I1:2 W1:10)
+Adding link Link (R0:2 I0:2 W0:10)<-->(R1:20 I1:0 W1:10)
+Adding link Link (R0:2 I0:2 W0:10)<-->(R1:20 I1:0 W1:10)
+Adding link Link (R0:3 I0:1 W0:10)<-->(R1:4 I1:4 W1:10)
+Adding link Link (R0:3 I0:1 W0:10)<-->(R1:4 I1:4 W1:10)
+Adding link Link (R0:4 I0:0 W0:1)<-->(R1:5 I1:0 W1:1)
+Adding link Link (R0:4 I0:0 W0:1)<-->(R1:5 I1:0 W1:1)
+Adding link Link (R0:4 I0:1 W0:1)<-->(R1:6 I1:0 W1:1)
+Adding link Link (R0:4 I0:1 W0:1)<-->(R1:6 I1:0 W1:1)
+Adding link Link (R0:4 I0:2 W0:1)<-->(R1:7 I1:0 W1:1)
+Adding link Link (R0:4 I0:2 W0:1)<-->(R1:7 I1:0 W1:1)
+Adding link Link (R0:4 I0:3 W0:1)<-->(R1:20 I1:1 W1:1)
+Adding link Link (R0:4 I0:3 W0:1)<-->(R1:20 I1:1 W1:1)
+Adding link Link (R0:7 I0:1 W0:1)<-->(R1:8 I1:0 W1:1)
+Adding link Link (R0:7 I0:1 W0:1)<-->(R1:8 I1:0 W1:1)
+Adding link Link (R0:7 I0:2 W0:1)<-->(R1:9 I1:0 W1:1)
+Adding link Link (R0:7 I0:2 W0:1)<-->(R1:9 I1:0 W1:1)
+Adding link Link (R0:7 I0:3 W0:1)<-->(R1:10 I1:0 W1:1)
+Adding link Link (R0:7 I0:3 W0:1)<-->(R1:10 I1:0 W1:1)
+Adding link Link (R0:7 I0:4 W0:1)<-->(R1:11 I1:0 W1:1)
+Adding link Link (R0:7 I0:4 W0:1)<-->(R1:11 I1:0 W1:1)
+Adding link Link (R0:7 I0:5 W0:1)<-->(R1:12 I1:0 W1:1)
+Adding link Link (R0:7 I0:5 W0:1)<-->(R1:12 I1:0 W1:1)
+Adding link Link (R0:7 I0:6 W0:10)<-->(R1:13 I1:0 W1:10)
+Adding link Link (R0:7 I0:6 W0:10)<-->(R1:13 I1:0 W1:10)
+Adding link Link (R0:7 I0:7 W0:1)<-->(R1:18 I1:1 W1:1)
+Adding link Link (R0:7 I0:7 W0:1)<-->(R1:18 I1:1 W1:1)
+Adding link Link (R0:13 I0:1 W0:1)<-->(R1:14 I1:0 W1:1)
+Adding link Link (R0:13 I0:1 W0:1)<-->(R1:14 I1:0 W1:1)
+Adding link Link (R0:13 I0:2 W0:10)<-->(R1:15 I1:0 W1:10)
+Adding link Link (R0:13 I0:2 W0:10)<-->(R1:15 I1:0 W1:10)
+Adding link Link (R0:15 I0:1 W0:1)<-->(R1:16 I1:0 W1:1)
+Adding link Link (R0:15 I0:1 W0:1)<-->(R1:16 I1:0 W1:1)
+Adding link Link (R0:15 I0:2 W0:1)<-->(R1:17 I1:0 W1:1)
+Adding link Link (R0:15 I0:2 W0:1)<-->(R1:17 I1:0 W1:1)
+Adding link Link (R0:15 I0:3 W0:10)<-->(R1:18 I1:2 W1:10)
+Adding link Link (R0:15 I0:3 W0:10)<-->(R1:18 I1:2 W1:10)
+Adding link Link (R0:18 I0:0 W0:1)<-->(R1:20 I1:2 W1:1)
+Adding link Link (R0:18 I0:0 W0:1)<-->(R1:20 I1:2 W1:1)
+Adding link Link (R0:18 I0:3 W0:1)<-->(R1:19 I1:0 W1:1)
+Adding link Link (R0:18 I0:3 W0:1)<-->(R1:19 I1:0 W1:1)
+Adding link Link (R0:20 I0:3 W0:1)<-->(R1:21 I1:0 W1:1)
+Adding link Link (R0:20 I0:3 W0:1)<-->(R1:21 I1:0 W1:1)
+Adding link Link (R0:20 I0:4 W0:1)<-->(R1:22 I1:0 W1:1)
+Adding link Link (R0:20 I0:4 W0:1)<-->(R1:22 I1:0 W1:1)
+Adding link Link (R0:20 I0:5 W0:1)<-->(R1:23 I1:0 W1:1)
+Adding link Link (R0:20 I0:5 W0:1)<-->(R1:23 I1:0 W1:1)
+Adding link Link (R0:20 I0:6 W0:1)<-->(R1:24 I1:0 W1:1)
+Adding link Link (R0:20 I0:6 W0:1)<-->(R1:24 I1:0 W1:1)
+Adding link Link (R0:20 I0:7 W0:1)<-->(R1:25 I1:0 W1:1)
+Adding link Link (R0:20 I0:7 W0:1)<-->(R1:25 I1:0 W1:1)
+Adding Event is dumprt to occur at 18 with all
+Adding Event is dumprt to occur at 19 with 4
+Adding Event is dumprt to occur at 19 with 7
+Adding Event is dumprt to occur at 19 with 15
+Adding Event is dumprt to occur at 19 with 18
+Adding Event is dumprt to occur at 19 with 20
+Adding Event is downlink to occur at 20 with 15 1 16 0
+Adding Event is dumprt to occur at 21 with 15
+Adding Event is dumprt to occur at 21 with 16
+Adding Event is dumprt to occur at 21 with 17
+Adding Event is dumprt to occur at 21 with 18
+Adding Event is dumprt to occur at 21 with 13
+Adding Event is dumprt to occur at 21 with 7
+Adding Event is dumprt to occur at 24 with 15
+Adding Event is dumprt to occur at 24 with 16
+Adding Event is dumprt to occur at 24 with 17
+Adding Event is dumprt to occur at 24 with 18
+Adding Event is dumprt to occur at 24 with 13
+Adding Event is dumprt to occur at 24 with 20
+Adding Event is dumprt to occur at 24 with 7
+Adding Event is dumprt to occur at 25 with 15
+Adding Event is dumprt to occur at 25 with 16
+Adding Event is dumprt to occur at 25 with 17
+Adding Event is dumprt to occur at 25 with 18
+Adding Event is dumprt to occur at 25 with 13
+Adding Event is dumprt to occur at 25 with 20
+Adding Event is dumprt to occur at 25 with 7
+Adding Event is dumprt to occur at 25 with 3
+Adding Event is dumprt to occur at 25 with 2
+Adding Event is dumprt to occur at 26 with 15
+Adding Event is dumprt to occur at 26 with 16
+Adding Event is dumprt to occur at 26 with 17
+Adding Event is dumprt to occur at 26 with 18
+Adding Event is dumprt to occur at 26 with 20
+Adding Event is dumprt to occur at 26 with 13
+Adding Event is dumprt to occur at 26 with 7
+Adding Event is dumprt to occur at 26 with 3
+Adding Event is dumprt to occur at 26 with 2
+Adding Event is dumprt to occur at 28 with 15
+Adding Event is dumprt to occur at 28 with 16
+Adding Event is dumprt to occur at 28 with 17
+Adding Event is dumprt to occur at 28 with 18
+Adding Event is dumprt to occur at 28 with 13
+Adding Event is dumprt to occur at 28 with 7
+Adding Event is dumprt to occur at 28 with 3
+Adding Event is dumprt to occur at 28 with 2
+Adding Event is dumprt to occur at 30 with 15
+Adding Event is dumprt to occur at 30 with 16
+Adding Event is dumprt to occur at 30 with 17
+Adding Event is dumprt to occur at 30 with 18
+Adding Event is dumprt to occur at 30 with 13
+Adding Event is dumprt to occur at 30 with 7
+Adding Event is dumprt to occur at 30 with 3
+Adding Event is dumprt to occur at 30 with 2
+Adding Event is dumprt to occur at 35 with all
+Adding Event is dumprt to occur at 65 with all
+Adding Event is dumprt to occur at 66 with all
+Adding Event is uplink to occur at 67 with 15 1 16 0
+Adding Event is dumprt to occur at 75 with all
+Adding Event is send to occur at 75 with 1 16
+Adding Event is downlink to occur at 90 with 7 7 18 1
+Adding Event is dumprt to occur at 91 with 7
+Adding Event is dumprt to occur at 91 with 4
+Adding Event is dumprt to occur at 91 with 20
+Adding Event is dumprt to occur at 91 with 18
+Adding Event is dumprt to occur at 92 with 7
+Adding Event is dumprt to occur at 92 with 4
+Adding Event is dumprt to occur at 92 with 20
+Adding Event is dumprt to occur at 92 with 18
+Adding Event is dumprt to occur at 95 with 7
+Adding Event is dumprt to occur at 95 with 4
+Adding Event is dumprt to occur at 95 with 20
+Adding Event is dumprt to occur at 95 with 18
+Adding Event is downlink to occur at 100 with 4 2 7 0
+Adding Event is downlink to occur at 101 with 18 0 20 2
+Adding Event is send to occur at 115 with 1 14
+Adding Event is dumprt to occur at 115 with all
+Adding Event is dumpPacketStats to occur at 115 with all
+Time :1
+Time :2
+Time :3
+Time :4
+Time :5
+Time :6
+Time :7
+Time :8
+Time :9
+Time :10
+Time :11
+Time :12
+Time :13
+Time :14
+Time :15
+Time :16
+Time :17
+Time :18
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 12
+d 2 i 0 m 1
+d 3 i 0 m 11
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 13
+d 8 i 0 m 14
+d 9 i 0 m 14
+d 10 i 0 m 14
+d 11 i 0 m 14
+d 12 i 0 m 14
+d 13 i 0 m 23
+d 14 i 0 m 24
+d 15 i 0 m 33
+d 16 i 0 m 34
+d 17 i 0 m 34
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 11
+d 21 i 0 m 12
+d 22 i 0 m 12
+d 23 i 0 m 12
+d 24 i 0 m 12
+d 25 i 0 m 12
+Router 1
+d 0 i 0 m 12
+d 1 i -1 m 0
+d 2 i 0 m 11
+d 3 i 0 m 1
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 12
+d 8 i 0 m 13
+d 9 i 0 m 13
+d 10 i 0 m 13
+d 11 i 0 m 13
+d 12 i 0 m 13
+d 13 i 0 m 22
+d 14 i 0 m 23
+d 15 i 0 m 32
+d 16 i 0 m 33
+d 17 i 0 m 33
+d 18 i 0 m 13
+d 19 i 0 m 14
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 7 i 2 m 12
+d 8 i 2 m 13
+d 9 i 2 m 13
+d 10 i 2 m 13
+d 11 i 2 m 13
+d 12 i 2 m 13
+d 13 i 2 m 22
+d 14 i 2 m 23
+d 15 i 2 m 32
+d 16 i 2 m 33
+d 17 i 2 m 33
+d 18 i 2 m 11
+d 19 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 7 i 1 m 11
+d 8 i 1 m 12
+d 9 i 1 m 12
+d 10 i 1 m 12
+d 11 i 1 m 12
+d 12 i 1 m 12
+d 13 i 1 m 21
+d 14 i 1 m 22
+d 15 i 1 m 31
+d 16 i 1 m 32
+d 17 i 1 m 32
+d 18 i 1 m 12
+d 19 i 1 m 13
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 7 i 2 m 1
+d 8 i 2 m 2
+d 9 i 2 m 2
+d 10 i 2 m 2
+d 11 i 2 m 2
+d 12 i 2 m 2
+d 13 i 2 m 11
+d 14 i 2 m 12
+d 15 i 2 m 21
+d 16 i 2 m 22
+d 17 i 2 m 22
+d 18 i 2 m 2
+d 19 i 2 m 3
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 5
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i -1 m 0
+d 6 i 0 m 2
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 16 i 0 m 23
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 6
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i -1 m 0
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 16 i 0 m 23
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 21
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 8
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i -1 m 0
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 9
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i -1 m 0
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 10
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i -1 m 0
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 11
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i -1 m 0
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 12
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i -1 m 0
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 16 i 2 m 11
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 14
+d 0 i 0 m 24
+d 1 i 0 m 23
+d 2 i 0 m 23
+d 3 i 0 m 22
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 11
+d 8 i 0 m 12
+d 9 i 0 m 12
+d 10 i 0 m 12
+d 11 i 0 m 12
+d 12 i 0 m 12
+d 13 i 0 m 1
+d 14 i -1 m 0
+d 15 i 0 m 11
+d 16 i 0 m 12
+d 17 i 0 m 12
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 13
+d 21 i 0 m 14
+d 22 i 0 m 14
+d 23 i 0 m 14
+d 24 i 0 m 14
+d 25 i 0 m 14
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 16 i 1 m 1
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i -1 m 0
+d 17 i 0 m 2
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i 0 m 2
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 1 m 22
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 19
+d 0 i 0 m 13
+d 1 i 0 m 14
+d 2 i 0 m 12
+d 3 i 0 m 13
+d 4 i 0 m 3
+d 5 i 0 m 4
+d 6 i 0 m 4
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 16 i 0 m 23
+d 17 i 0 m 23
+d 18 i 0 m 1
+d 19 i -1 m 0
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 23
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 21
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i -1 m 0
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 22
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i -1 m 0
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 23
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i -1 m 0
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 24
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i -1 m 0
+d 25 i 0 m 2
+Router 25
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i -1 m 0
+Time :19
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 7 i 2 m 1
+d 8 i 2 m 2
+d 9 i 2 m 2
+d 10 i 2 m 2
+d 11 i 2 m 2
+d 12 i 2 m 2
+d 13 i 2 m 11
+d 14 i 2 m 12
+d 15 i 2 m 21
+d 16 i 2 m 22
+d 17 i 2 m 22
+d 18 i 2 m 2
+d 19 i 2 m 3
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 21
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 16 i 1 m 1
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 1 m 22
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 23
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Time :20
+Setting link status to down Link (R0:15 I0:1 W0:1)<-->(R1:16 I1:0 W1:1)
+Time :21
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 16 i 1 m 60
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 0 i 0 m 60
+d 1 i 0 m 60
+d 2 i 0 m 60
+d 3 i 0 m 60
+d 4 i 0 m 60
+d 5 i 0 m 60
+d 6 i 0 m 60
+d 7 i 0 m 60
+d 8 i 0 m 60
+d 9 i 0 m 60
+d 10 i 0 m 60
+d 11 i 0 m 60
+d 12 i 0 m 60
+d 13 i 0 m 60
+d 14 i 0 m 60
+d 15 i 0 m 60
+d 16 i -1 m 0
+d 17 i 0 m 60
+d 18 i 0 m 60
+d 19 i 0 m 60
+d 20 i 0 m 60
+d 21 i 0 m 60
+d 22 i 0 m 60
+d 23 i 0 m 60
+d 24 i 0 m 60
+d 25 i 0 m 60
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i 0 m 2
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 1 m 22
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 16 i 2 m 11
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 21
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Time :22
+Time :23
+Time :24
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 16 i 1 m 60
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 0 i 0 m 60
+d 1 i 0 m 60
+d 2 i 0 m 60
+d 3 i 0 m 60
+d 4 i 0 m 60
+d 5 i 0 m 60
+d 6 i 0 m 60
+d 7 i 0 m 60
+d 8 i 0 m 60
+d 9 i 0 m 60
+d 10 i 0 m 60
+d 11 i 0 m 60
+d 12 i 0 m 60
+d 13 i 0 m 60
+d 14 i 0 m 60
+d 15 i 0 m 60
+d 16 i -1 m 0
+d 17 i 0 m 60
+d 18 i 0 m 60
+d 19 i 0 m 60
+d 20 i 0 m 60
+d 21 i 0 m 60
+d 22 i 0 m 60
+d 23 i 0 m 60
+d 24 i 0 m 60
+d 25 i 0 m 60
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i 0 m 60
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 1 m 60
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 16 i 2 m 60
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 23
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 60
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Time :25
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 16 i -1 m 0
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i 0 m 60
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 0 m 24
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 16 i 2 m 60
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 60
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 60
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 7 i 1 m 11
+d 8 i 1 m 12
+d 9 i 1 m 12
+d 10 i 1 m 12
+d 11 i 1 m 12
+d 12 i 1 m 12
+d 13 i 1 m 21
+d 14 i 1 m 22
+d 15 i 1 m 31
+d 16 i 2 m 43
+d 17 i 1 m 32
+d 18 i 1 m 12
+d 19 i 1 m 13
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 7 i 2 m 12
+d 8 i 2 m 13
+d 9 i 2 m 13
+d 10 i 2 m 13
+d 11 i 2 m 13
+d 12 i 2 m 13
+d 13 i 2 m 22
+d 14 i 2 m 23
+d 15 i 2 m 32
+d 16 i 2 m 33
+d 17 i 2 m 33
+d 18 i 2 m 11
+d 19 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Time :26
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 16 i -1 m 0
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 0 m 60
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 60
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 7 m 25
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 7 i 1 m 11
+d 8 i 1 m 12
+d 9 i 1 m 12
+d 10 i 1 m 12
+d 11 i 1 m 12
+d 12 i 1 m 12
+d 13 i 1 m 21
+d 14 i 1 m 22
+d 15 i 1 m 31
+d 16 i 2 m 43
+d 17 i 1 m 32
+d 18 i 1 m 12
+d 19 i 1 m 13
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 7 i 2 m 12
+d 8 i 2 m 13
+d 9 i 2 m 13
+d 10 i 2 m 13
+d 11 i 2 m 13
+d 12 i 2 m 13
+d 13 i 2 m 22
+d 14 i 2 m 23
+d 15 i 2 m 32
+d 16 i 2 m 60
+d 17 i 2 m 33
+d 18 i 2 m 11
+d 19 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Time :27
+Time :28
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 16 i 0 m 45
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 16 i -1 m 0
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 0 m 55
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 16 i 0 m 60
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 7 m 60
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 7 i 1 m 11
+d 8 i 1 m 12
+d 9 i 1 m 12
+d 10 i 1 m 12
+d 11 i 1 m 12
+d 12 i 1 m 12
+d 13 i 1 m 21
+d 14 i 1 m 22
+d 15 i 1 m 31
+d 16 i 1 m 36
+d 17 i 1 m 32
+d 18 i 1 m 12
+d 19 i 1 m 13
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 7 i 2 m 12
+d 8 i 2 m 13
+d 9 i 2 m 13
+d 10 i 2 m 13
+d 11 i 2 m 13
+d 12 i 2 m 13
+d 13 i 2 m 22
+d 14 i 2 m 23
+d 15 i 2 m 32
+d 16 i 2 m 60
+d 17 i 2 m 33
+d 18 i 2 m 11
+d 19 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Time :29
+Time :30
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 16 i 0 m 60
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 16 i -1 m 0
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i 0 m 60
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 0 m 60
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 16 i 0 m 60
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 7 m 29
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 7 i 1 m 11
+d 8 i 1 m 12
+d 9 i 1 m 12
+d 10 i 1 m 12
+d 11 i 1 m 12
+d 12 i 1 m 12
+d 13 i 1 m 21
+d 14 i 1 m 22
+d 15 i 1 m 31
+d 16 i 2 m 47
+d 17 i 1 m 32
+d 18 i 1 m 12
+d 19 i 1 m 13
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 7 i 2 m 12
+d 8 i 2 m 13
+d 9 i 2 m 13
+d 10 i 2 m 13
+d 11 i 2 m 13
+d 12 i 2 m 13
+d 13 i 2 m 22
+d 14 i 2 m 23
+d 15 i 2 m 32
+d 16 i 2 m 60
+d 17 i 2 m 33
+d 18 i 2 m 11
+d 19 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Time :31
+Time :32
+Time :33
+Time :34
+Time :35
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 12
+d 2 i 0 m 1
+d 3 i 0 m 11
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 13
+d 8 i 0 m 14
+d 9 i 0 m 14
+d 10 i 0 m 14
+d 11 i 0 m 14
+d 12 i 0 m 14
+d 13 i 0 m 23
+d 14 i 0 m 24
+d 15 i 0 m 33
+d 16 i 0 m 60
+d 17 i 0 m 34
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 11
+d 21 i 0 m 12
+d 22 i 0 m 12
+d 23 i 0 m 12
+d 24 i 0 m 12
+d 25 i 0 m 12
+Router 1
+d 0 i 0 m 12
+d 1 i -1 m 0
+d 2 i 0 m 11
+d 3 i 0 m 1
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 12
+d 8 i 0 m 13
+d 9 i 0 m 13
+d 10 i 0 m 13
+d 11 i 0 m 13
+d 12 i 0 m 13
+d 13 i 0 m 22
+d 14 i 0 m 23
+d 15 i 0 m 32
+d 16 i 0 m 52
+d 17 i 0 m 33
+d 18 i 0 m 13
+d 19 i 0 m 14
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 7 i 2 m 12
+d 8 i 2 m 13
+d 9 i 2 m 13
+d 10 i 2 m 13
+d 11 i 2 m 13
+d 12 i 2 m 13
+d 13 i 2 m 22
+d 14 i 2 m 23
+d 15 i 2 m 32
+d 16 i 2 m 60
+d 17 i 2 m 33
+d 18 i 2 m 11
+d 19 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 7 i 1 m 11
+d 8 i 1 m 12
+d 9 i 1 m 12
+d 10 i 1 m 12
+d 11 i 1 m 12
+d 12 i 1 m 12
+d 13 i 1 m 21
+d 14 i 1 m 22
+d 15 i 1 m 31
+d 16 i 2 m 60
+d 17 i 1 m 32
+d 18 i 1 m 12
+d 19 i 1 m 13
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 7 i 2 m 1
+d 8 i 2 m 2
+d 9 i 2 m 2
+d 10 i 2 m 2
+d 11 i 2 m 2
+d 12 i 2 m 2
+d 13 i 2 m 11
+d 14 i 2 m 12
+d 15 i 2 m 21
+d 16 i 2 m 34
+d 17 i 2 m 22
+d 18 i 2 m 2
+d 19 i 2 m 3
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 5
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i -1 m 0
+d 6 i 0 m 2
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 16 i 0 m 60
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 6
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i -1 m 0
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 16 i 0 m 60
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 7 m 60
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 8
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i -1 m 0
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 34
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 9
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i -1 m 0
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 34
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 10
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i -1 m 0
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 34
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 11
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i -1 m 0
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 34
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 12
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i -1 m 0
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 34
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 16 i 0 m 43
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 14
+d 0 i 0 m 24
+d 1 i 0 m 23
+d 2 i 0 m 23
+d 3 i 0 m 22
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 11
+d 8 i 0 m 12
+d 9 i 0 m 12
+d 10 i 0 m 12
+d 11 i 0 m 12
+d 12 i 0 m 12
+d 13 i 0 m 1
+d 14 i -1 m 0
+d 15 i 0 m 11
+d 16 i 0 m 60
+d 17 i 0 m 12
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 13
+d 21 i 0 m 14
+d 22 i 0 m 14
+d 23 i 0 m 14
+d 24 i 0 m 14
+d 25 i 0 m 14
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 16 i 0 m 60
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 16 i -1 m 0
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i 0 m 60
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 0 m 60
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 19
+d 0 i 0 m 13
+d 1 i 0 m 14
+d 2 i 0 m 12
+d 3 i 0 m 13
+d 4 i 0 m 3
+d 5 i 0 m 4
+d 6 i 0 m 4
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 16 i 0 m 60
+d 17 i 0 m 23
+d 18 i 0 m 1
+d 19 i -1 m 0
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 60
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 21
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 60
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i -1 m 0
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 22
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 60
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i -1 m 0
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 23
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 60
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i -1 m 0
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 24
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 60
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i -1 m 0
+d 25 i 0 m 2
+Router 25
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 60
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i -1 m 0
+Time :36
+Time :37
+Time :38
+Time :39
+Time :40
+Time :41
+Time :42
+Time :43
+Time :44
+Time :45
+Time :46
+Time :47
+Time :48
+Time :49
+Time :50
+Time :51
+Time :52
+Time :53
+Time :54
+Time :55
+Time :56
+Time :57
+Time :58
+Time :59
+Time :60
+Time :61
+Time :62
+Time :63
+Time :64
+Time :65
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 12
+d 2 i 0 m 1
+d 3 i 0 m 11
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 13
+d 8 i 0 m 14
+d 9 i 0 m 14
+d 10 i 0 m 14
+d 11 i 0 m 14
+d 12 i 0 m 14
+d 13 i 0 m 23
+d 14 i 0 m 24
+d 15 i 0 m 33
+d 17 i 0 m 34
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 11
+d 21 i 0 m 12
+d 22 i 0 m 12
+d 23 i 0 m 12
+d 24 i 0 m 12
+d 25 i 0 m 12
+Router 1
+d 0 i 0 m 12
+d 1 i -1 m 0
+d 2 i 0 m 11
+d 3 i 0 m 1
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 12
+d 8 i 0 m 13
+d 9 i 0 m 13
+d 10 i 0 m 13
+d 11 i 0 m 13
+d 12 i 0 m 13
+d 13 i 0 m 22
+d 14 i 0 m 23
+d 15 i 0 m 32
+d 17 i 0 m 33
+d 18 i 0 m 13
+d 19 i 0 m 14
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 7 i 2 m 12
+d 8 i 2 m 13
+d 9 i 2 m 13
+d 10 i 2 m 13
+d 11 i 2 m 13
+d 12 i 2 m 13
+d 13 i 2 m 22
+d 14 i 2 m 23
+d 15 i 2 m 32
+d 17 i 2 m 33
+d 18 i 2 m 11
+d 19 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 7 i 1 m 11
+d 8 i 1 m 12
+d 9 i 1 m 12
+d 10 i 1 m 12
+d 11 i 1 m 12
+d 12 i 1 m 12
+d 13 i 1 m 21
+d 14 i 1 m 22
+d 15 i 1 m 31
+d 17 i 1 m 32
+d 18 i 1 m 12
+d 19 i 1 m 13
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 7 i 2 m 1
+d 8 i 2 m 2
+d 9 i 2 m 2
+d 10 i 2 m 2
+d 11 i 2 m 2
+d 12 i 2 m 2
+d 13 i 2 m 11
+d 14 i 2 m 12
+d 15 i 2 m 21
+d 17 i 2 m 22
+d 18 i 2 m 2
+d 19 i 2 m 3
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 5
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i -1 m 0
+d 6 i 0 m 2
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 6
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i -1 m 0
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 8
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i -1 m 0
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 9
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i -1 m 0
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 10
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i -1 m 0
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 11
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i -1 m 0
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 12
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i -1 m 0
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 14
+d 0 i 0 m 24
+d 1 i 0 m 23
+d 2 i 0 m 23
+d 3 i 0 m 22
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 11
+d 8 i 0 m 12
+d 9 i 0 m 12
+d 10 i 0 m 12
+d 11 i 0 m 12
+d 12 i 0 m 12
+d 13 i 0 m 1
+d 14 i -1 m 0
+d 15 i 0 m 11
+d 17 i 0 m 12
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 13
+d 21 i 0 m 14
+d 22 i 0 m 14
+d 23 i 0 m 14
+d 24 i 0 m 14
+d 25 i 0 m 14
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 16 i -1 m 0
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 19
+d 0 i 0 m 13
+d 1 i 0 m 14
+d 2 i 0 m 12
+d 3 i 0 m 13
+d 4 i 0 m 3
+d 5 i 0 m 4
+d 6 i 0 m 4
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 17 i 0 m 23
+d 18 i 0 m 1
+d 19 i -1 m 0
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 21
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i -1 m 0
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 22
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i -1 m 0
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 23
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i -1 m 0
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 24
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i -1 m 0
+d 25 i 0 m 2
+Router 25
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i -1 m 0
+Time :66
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 12
+d 2 i 0 m 1
+d 3 i 0 m 11
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 13
+d 8 i 0 m 14
+d 9 i 0 m 14
+d 10 i 0 m 14
+d 11 i 0 m 14
+d 12 i 0 m 14
+d 13 i 0 m 23
+d 14 i 0 m 24
+d 15 i 0 m 33
+d 17 i 0 m 34
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 11
+d 21 i 0 m 12
+d 22 i 0 m 12
+d 23 i 0 m 12
+d 24 i 0 m 12
+d 25 i 0 m 12
+Router 1
+d 0 i 0 m 12
+d 1 i -1 m 0
+d 2 i 0 m 11
+d 3 i 0 m 1
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 12
+d 8 i 0 m 13
+d 9 i 0 m 13
+d 10 i 0 m 13
+d 11 i 0 m 13
+d 12 i 0 m 13
+d 13 i 0 m 22
+d 14 i 0 m 23
+d 15 i 0 m 32
+d 17 i 0 m 33
+d 18 i 0 m 13
+d 19 i 0 m 14
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 7 i 2 m 12
+d 8 i 2 m 13
+d 9 i 2 m 13
+d 10 i 2 m 13
+d 11 i 2 m 13
+d 12 i 2 m 13
+d 13 i 2 m 22
+d 14 i 2 m 23
+d 15 i 2 m 32
+d 17 i 2 m 33
+d 18 i 2 m 11
+d 19 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 7 i 1 m 11
+d 8 i 1 m 12
+d 9 i 1 m 12
+d 10 i 1 m 12
+d 11 i 1 m 12
+d 12 i 1 m 12
+d 13 i 1 m 21
+d 14 i 1 m 22
+d 15 i 1 m 31
+d 17 i 1 m 32
+d 18 i 1 m 12
+d 19 i 1 m 13
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 7 i 2 m 1
+d 8 i 2 m 2
+d 9 i 2 m 2
+d 10 i 2 m 2
+d 11 i 2 m 2
+d 12 i 2 m 2
+d 13 i 2 m 11
+d 14 i 2 m 12
+d 15 i 2 m 21
+d 17 i 2 m 22
+d 18 i 2 m 2
+d 19 i 2 m 3
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 5
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i -1 m 0
+d 6 i 0 m 2
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 6
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i -1 m 0
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 8
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i -1 m 0
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 9
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i -1 m 0
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 10
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i -1 m 0
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 11
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i -1 m 0
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 12
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i -1 m 0
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 14
+d 0 i 0 m 24
+d 1 i 0 m 23
+d 2 i 0 m 23
+d 3 i 0 m 22
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 11
+d 8 i 0 m 12
+d 9 i 0 m 12
+d 10 i 0 m 12
+d 11 i 0 m 12
+d 12 i 0 m 12
+d 13 i 0 m 1
+d 14 i -1 m 0
+d 15 i 0 m 11
+d 17 i 0 m 12
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 13
+d 21 i 0 m 14
+d 22 i 0 m 14
+d 23 i 0 m 14
+d 24 i 0 m 14
+d 25 i 0 m 14
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 16 i -1 m 0
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 19
+d 0 i 0 m 13
+d 1 i 0 m 14
+d 2 i 0 m 12
+d 3 i 0 m 13
+d 4 i 0 m 3
+d 5 i 0 m 4
+d 6 i 0 m 4
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 17 i 0 m 23
+d 18 i 0 m 1
+d 19 i -1 m 0
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 21
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i -1 m 0
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 22
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i -1 m 0
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 23
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i -1 m 0
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 24
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i -1 m 0
+d 25 i 0 m 2
+Router 25
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i -1 m 0
+Time :67
+Setting link status to up Link (R0:15 I0:1 W0:1)<-->(R1:16 I1:0 W1:1)
+Time :68
+Time :69
+Time :70
+Time :71
+Time :72
+Time :73
+Time :74
+Time :75
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 12
+d 2 i 0 m 1
+d 3 i 0 m 11
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 13
+d 8 i 0 m 14
+d 9 i 0 m 14
+d 10 i 0 m 14
+d 11 i 0 m 14
+d 12 i 0 m 14
+d 13 i 0 m 23
+d 14 i 0 m 24
+d 15 i 0 m 33
+d 16 i 0 m 34
+d 17 i 0 m 34
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 11
+d 21 i 0 m 12
+d 22 i 0 m 12
+d 23 i 0 m 12
+d 24 i 0 m 12
+d 25 i 0 m 12
+Router 1
+d 0 i 0 m 12
+d 1 i -1 m 0
+d 2 i 0 m 11
+d 3 i 0 m 1
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 12
+d 8 i 0 m 13
+d 9 i 0 m 13
+d 10 i 0 m 13
+d 11 i 0 m 13
+d 12 i 0 m 13
+d 13 i 0 m 22
+d 14 i 0 m 23
+d 15 i 0 m 32
+d 16 i 0 m 33
+d 17 i 0 m 33
+d 18 i 0 m 13
+d 19 i 0 m 14
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 7 i 2 m 12
+d 8 i 2 m 13
+d 9 i 2 m 13
+d 10 i 2 m 13
+d 11 i 2 m 13
+d 12 i 2 m 13
+d 13 i 2 m 22
+d 14 i 2 m 23
+d 15 i 2 m 32
+d 16 i 2 m 33
+d 17 i 2 m 33
+d 18 i 2 m 11
+d 19 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 7 i 1 m 11
+d 8 i 1 m 12
+d 9 i 1 m 12
+d 10 i 1 m 12
+d 11 i 1 m 12
+d 12 i 1 m 12
+d 13 i 1 m 21
+d 14 i 1 m 22
+d 15 i 1 m 31
+d 16 i 1 m 32
+d 17 i 1 m 32
+d 18 i 1 m 12
+d 19 i 1 m 13
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 7 i 2 m 1
+d 8 i 2 m 2
+d 9 i 2 m 2
+d 10 i 2 m 2
+d 11 i 2 m 2
+d 12 i 2 m 2
+d 13 i 2 m 11
+d 14 i 2 m 12
+d 15 i 2 m 21
+d 16 i 2 m 22
+d 17 i 2 m 22
+d 18 i 2 m 2
+d 19 i 2 m 3
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 5
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i -1 m 0
+d 6 i 0 m 2
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 16 i 0 m 23
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 6
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i -1 m 0
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 16 i 0 m 23
+d 17 i 0 m 23
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 21
+d 17 i 6 m 21
+d 18 i 7 m 1
+d 19 i 7 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 8
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i -1 m 0
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 9
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i -1 m 0
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 10
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i -1 m 0
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 11
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i -1 m 0
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 12
+d 0 i 0 m 14
+d 1 i 0 m 13
+d 2 i 0 m 13
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i -1 m 0
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 3
+d 21 i 0 m 4
+d 22 i 0 m 4
+d 23 i 0 m 4
+d 24 i 0 m 4
+d 25 i 0 m 4
+Router 13
+d 0 i 0 m 23
+d 1 i 0 m 22
+d 2 i 0 m 22
+d 3 i 0 m 21
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 16 i 2 m 11
+d 17 i 2 m 11
+d 18 i 0 m 11
+d 19 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 14
+d 0 i 0 m 24
+d 1 i 0 m 23
+d 2 i 0 m 23
+d 3 i 0 m 22
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 7 i 0 m 11
+d 8 i 0 m 12
+d 9 i 0 m 12
+d 10 i 0 m 12
+d 11 i 0 m 12
+d 12 i 0 m 12
+d 13 i 0 m 1
+d 14 i -1 m 0
+d 15 i 0 m 11
+d 16 i 0 m 12
+d 17 i 0 m 12
+d 18 i 0 m 12
+d 19 i 0 m 13
+d 20 i 0 m 13
+d 21 i 0 m 14
+d 22 i 0 m 14
+d 23 i 0 m 14
+d 24 i 0 m 14
+d 25 i 0 m 14
+Router 15
+d 0 i 0 m 33
+d 1 i 0 m 32
+d 2 i 0 m 32
+d 3 i 0 m 31
+d 4 i 0 m 21
+d 5 i 0 m 22
+d 6 i 0 m 22
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 16 i 1 m 1
+d 17 i 2 m 1
+d 18 i 0 m 21
+d 19 i 0 m 22
+d 20 i 0 m 22
+d 21 i 0 m 23
+d 22 i 0 m 23
+d 23 i 0 m 23
+d 24 i 0 m 23
+d 25 i 0 m 23
+Router 16
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i -1 m 0
+d 17 i 0 m 2
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 17
+d 0 i 0 m 34
+d 1 i 0 m 33
+d 2 i 0 m 33
+d 3 i 0 m 32
+d 4 i 0 m 22
+d 5 i 0 m 23
+d 6 i 0 m 23
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i 0 m 2
+d 17 i -1 m 0
+d 18 i 0 m 22
+d 19 i 0 m 23
+d 20 i 0 m 23
+d 21 i 0 m 24
+d 22 i 0 m 24
+d 23 i 0 m 24
+d 24 i 0 m 24
+d 25 i 0 m 24
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 1
+d 8 i 1 m 2
+d 9 i 1 m 2
+d 10 i 1 m 2
+d 11 i 1 m 2
+d 12 i 1 m 2
+d 13 i 1 m 11
+d 14 i 1 m 12
+d 15 i 1 m 21
+d 16 i 1 m 22
+d 17 i 1 m 22
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 19
+d 0 i 0 m 13
+d 1 i 0 m 14
+d 2 i 0 m 12
+d 3 i 0 m 13
+d 4 i 0 m 3
+d 5 i 0 m 4
+d 6 i 0 m 4
+d 7 i 0 m 2
+d 8 i 0 m 3
+d 9 i 0 m 3
+d 10 i 0 m 3
+d 11 i 0 m 3
+d 12 i 0 m 3
+d 13 i 0 m 12
+d 14 i 0 m 13
+d 15 i 0 m 22
+d 16 i 0 m 23
+d 17 i 0 m 23
+d 18 i 0 m 1
+d 19 i -1 m 0
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 23
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 21
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i -1 m 0
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 22
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i -1 m 0
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 23
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i -1 m 0
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 24
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i -1 m 0
+d 25 i 0 m 2
+Router 25
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i 0 m 2
+d 19 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i -1 m 0
+Forwarded packet src 1 dst 16 type 1 ttl 254 seq 1 path
+Time :76
+Forwarded packet src 1 dst 16 type 1 ttl 253 seq 1 path (1.0->3.0)
+Time :77
+Forwarded packet src 1 dst 16 type 1 ttl 252 seq 1 path (1.0->3.0) (3.1->4.4)
+Time :78
+Forwarded packet src 1 dst 16 type 1 ttl 251 seq 1 path (1.0->3.0) (3.1->4.4) (4.2->7.0)
+Time :79
+Forwarded packet src 1 dst 16 type 1 ttl 250 seq 1 path (1.0->3.0) (3.1->4.4) (4.2->7.0) (7.6->13.0)
+Time :80
+Forwarded packet src 1 dst 16 type 1 ttl 249 seq 1 path (1.0->3.0) (3.1->4.4) (4.2->7.0) (7.6->13.0) (13.2->15.0)
+Time :81
+Received packet src 1 dst 16 type 1 ttl 249 seq 1 path (1.0->3.0) (3.1->4.4) (4.2->7.0) (7.6->13.0) (13.2->15.0) (15.1->16.0)
+Time :82
+Time :83
+Time :84
+Time :85
+Time :86
+Time :87
+Time :88
+Time :89
+Time :90
+Setting link status to down Link (R0:7 I0:7 W0:1)<-->(R1:18 I1:1 W1:1)
+Time :91
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 21
+d 17 i 6 m 21
+d 18 i 7 m 60
+d 19 i 7 m 60
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 7 i 2 m 1
+d 8 i 2 m 2
+d 9 i 2 m 2
+d 10 i 2 m 2
+d 11 i 2 m 2
+d 12 i 2 m 2
+d 13 i 2 m 11
+d 14 i 2 m 12
+d 15 i 2 m 21
+d 16 i 2 m 22
+d 17 i 2 m 22
+d 18 i 2 m 2
+d 19 i 2 m 3
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 23
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 1 m 60
+d 8 i 1 m 60
+d 9 i 1 m 60
+d 10 i 1 m 60
+d 11 i 1 m 60
+d 12 i 1 m 60
+d 13 i 1 m 60
+d 14 i 1 m 60
+d 15 i 1 m 60
+d 16 i 1 m 60
+d 17 i 1 m 60
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Time :92
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 21
+d 17 i 6 m 21
+d 18 i 7 m 60
+d 19 i 7 m 60
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 7 i 2 m 1
+d 8 i 2 m 2
+d 9 i 2 m 2
+d 10 i 2 m 2
+d 11 i 2 m 2
+d 12 i 2 m 2
+d 13 i 2 m 11
+d 14 i 2 m 12
+d 15 i 2 m 21
+d 16 i 2 m 22
+d 17 i 2 m 22
+d 18 i 3 m 2
+d 19 i 3 m 3
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 23
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Time :93
+Time :94
+Time :95
+Router 7
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 21
+d 17 i 6 m 21
+d 18 i 0 m 3
+d 19 i 0 m 4
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 7 i 2 m 1
+d 8 i 2 m 2
+d 9 i 2 m 2
+d 10 i 2 m 2
+d 11 i 2 m 2
+d 12 i 2 m 2
+d 13 i 2 m 11
+d 14 i 2 m 12
+d 15 i 2 m 21
+d 16 i 2 m 22
+d 17 i 2 m 22
+d 18 i 3 m 2
+d 19 i 3 m 3
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 7 i 1 m 2
+d 8 i 1 m 3
+d 9 i 1 m 3
+d 10 i 1 m 3
+d 11 i 1 m 3
+d 12 i 1 m 3
+d 13 i 1 m 12
+d 14 i 1 m 13
+d 15 i 1 m 22
+d 16 i 1 m 23
+d 17 i 1 m 23
+d 18 i 2 m 1
+d 19 i 2 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 18
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 3
+d 8 i 0 m 4
+d 9 i 0 m 4
+d 10 i 0 m 4
+d 11 i 0 m 4
+d 12 i 0 m 4
+d 13 i 0 m 13
+d 14 i 0 m 14
+d 15 i 0 m 23
+d 16 i 0 m 24
+d 17 i 0 m 24
+d 18 i -1 m 0
+d 19 i 3 m 1
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Time :96
+Time :97
+Time :98
+Time :99
+Time :100
+Setting link status to down Link (R0:4 I0:2 W0:1)<-->(R1:7 I1:0 W1:1)
+Time :101
+Setting link status to down Link (R0:18 I0:0 W0:1)<-->(R1:20 I1:2 W1:1)
+Time :102
+Time :103
+Time :104
+Time :105
+Time :106
+Time :107
+Time :108
+Time :109
+Time :110
+Time :111
+Time :112
+Time :113
+Time :114
+Time :115
+Dropping packet src 1 dst 14 type 1 ttl 255 seq 2 path
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 12
+d 2 i 0 m 1
+d 3 i 0 m 11
+d 4 i 0 m 12
+d 5 i 0 m 13
+d 6 i 0 m 13
+d 20 i 0 m 11
+d 21 i 0 m 12
+d 22 i 0 m 12
+d 23 i 0 m 12
+d 24 i 0 m 12
+d 25 i 0 m 12
+Router 1
+d 0 i 0 m 12
+d 1 i -1 m 0
+d 2 i 0 m 11
+d 3 i 0 m 1
+d 4 i 0 m 11
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 20 i 0 m 12
+d 21 i 0 m 13
+d 22 i 0 m 13
+d 23 i 0 m 13
+d 24 i 0 m 13
+d 25 i 0 m 13
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 11
+d 2 i -1 m 0
+d 3 i 1 m 10
+d 4 i 2 m 11
+d 5 i 2 m 12
+d 6 i 2 m 12
+d 20 i 2 m 10
+d 21 i 2 m 11
+d 22 i 2 m 11
+d 23 i 2 m 11
+d 24 i 2 m 11
+d 25 i 2 m 11
+Router 3
+d 0 i 2 m 11
+d 1 i 0 m 1
+d 2 i 2 m 10
+d 3 i -1 m 0
+d 4 i 1 m 10
+d 5 i 1 m 11
+d 6 i 1 m 11
+d 20 i 1 m 11
+d 21 i 1 m 12
+d 22 i 1 m 12
+d 23 i 1 m 12
+d 24 i 1 m 12
+d 25 i 1 m 12
+Router 4
+d 0 i 3 m 12
+d 1 i 4 m 11
+d 2 i 3 m 11
+d 3 i 4 m 10
+d 4 i -1 m 0
+d 5 i 0 m 1
+d 6 i 1 m 1
+d 20 i 3 m 1
+d 21 i 3 m 2
+d 22 i 3 m 2
+d 23 i 3 m 2
+d 24 i 3 m 2
+d 25 i 3 m 2
+Router 5
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i -1 m 0
+d 6 i 0 m 2
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 6
+d 0 i 0 m 13
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 11
+d 4 i 0 m 1
+d 5 i 0 m 2
+d 6 i -1 m 0
+d 20 i 0 m 2
+d 21 i 0 m 3
+d 22 i 0 m 3
+d 23 i 0 m 3
+d 24 i 0 m 3
+d 25 i 0 m 3
+Router 7
+d 7 i -1 m 0
+d 8 i 1 m 1
+d 9 i 2 m 1
+d 10 i 3 m 1
+d 11 i 4 m 1
+d 12 i 5 m 1
+d 13 i 6 m 10
+d 14 i 6 m 11
+d 15 i 6 m 20
+d 16 i 6 m 21
+d 17 i 6 m 21
+Router 8
+d 7 i 0 m 1
+d 8 i -1 m 0
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+Router 9
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i -1 m 0
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+Router 10
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i -1 m 0
+d 11 i 0 m 2
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+Router 11
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i -1 m 0
+d 12 i 0 m 2
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+Router 12
+d 7 i 0 m 1
+d 8 i 0 m 2
+d 9 i 0 m 2
+d 10 i 0 m 2
+d 11 i 0 m 2
+d 12 i -1 m 0
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 21
+d 16 i 0 m 22
+d 17 i 0 m 22
+Router 13
+d 7 i 0 m 10
+d 8 i 0 m 11
+d 9 i 0 m 11
+d 10 i 0 m 11
+d 11 i 0 m 11
+d 12 i 0 m 11
+d 13 i -1 m 0
+d 14 i 1 m 1
+d 15 i 2 m 10
+d 16 i 2 m 11
+d 17 i 2 m 11
+Router 14
+d 7 i 0 m 11
+d 8 i 0 m 12
+d 9 i 0 m 12
+d 10 i 0 m 12
+d 11 i 0 m 12
+d 12 i 0 m 12
+d 13 i 0 m 1
+d 14 i -1 m 0
+d 15 i 0 m 11
+d 16 i 0 m 12
+d 17 i 0 m 12
+Router 15
+d 7 i 0 m 20
+d 8 i 0 m 21
+d 9 i 0 m 21
+d 10 i 0 m 21
+d 11 i 0 m 21
+d 12 i 0 m 21
+d 13 i 0 m 10
+d 14 i 0 m 11
+d 15 i -1 m 0
+d 16 i 1 m 1
+d 17 i 2 m 1
+Router 16
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i -1 m 0
+d 17 i 0 m 2
+Router 17
+d 7 i 0 m 21
+d 8 i 0 m 22
+d 9 i 0 m 22
+d 10 i 0 m 22
+d 11 i 0 m 22
+d 12 i 0 m 22
+d 13 i 0 m 11
+d 14 i 0 m 12
+d 15 i 0 m 1
+d 16 i 0 m 2
+d 17 i -1 m 0
+Router 18
+d 18 i -1 m 0
+d 19 i 3 m 1
+Router 19
+d 18 i 0 m 1
+d 19 i -1 m 0
+Router 20
+d 0 i 0 m 11
+d 1 i 1 m 12
+d 2 i 0 m 10
+d 3 i 1 m 11
+d 4 i 1 m 1
+d 5 i 1 m 2
+d 6 i 1 m 2
+d 20 i -1 m 0
+d 21 i 3 m 1
+d 22 i 4 m 1
+d 23 i 5 m 1
+d 24 i 6 m 1
+d 25 i 7 m 1
+Router 21
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 20 i 0 m 1
+d 21 i -1 m 0
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 22
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i -1 m 0
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 23
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i -1 m 0
+d 24 i 0 m 2
+d 25 i 0 m 2
+Router 24
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i -1 m 0
+d 25 i 0 m 2
+Router 25
+d 0 i 0 m 12
+d 1 i 0 m 13
+d 2 i 0 m 11
+d 3 i 0 m 12
+d 4 i 0 m 2
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 20 i 0 m 1
+d 21 i 0 m 2
+d 22 i 0 m 2
+d 23 i 0 m 2
+d 24 i 0 m 2
+d 25 i -1 m 0
+event Event is dumpPacketStats to occur at 115 with all
+Pkt stats for 0 :  s 114 r 113 d 0 f 0
+(R0:0 I0:0) s 114 r 113<-->(R1:2 I1:0) s 114 r 113
+Pkt stats for 1 :  s 116 r 113 d 1 f 0
+(R0:1 I0:0) s 115 r 113<-->(R1:3 I1:0) s 114 r 114
+Pkt stats for 2 :  s 342 r 339 d 0 f 0
+(R0:0 I0:0) s 114 r 113<-->(R1:2 I1:0) s 114 r 113
+(R0:2 I0:1) s 114 r 113<-->(R1:3 I1:2) s 114 r 113
+(R0:2 I0:2) s 114 r 113<-->(R1:20 I1:0) s 114 r 113
+Pkt stats for 3 :  s 342 r 339 d 0 f 1
+(R0:1 I0:0) s 115 r 113<-->(R1:3 I1:0) s 114 r 114
+(R0:3 I0:1) s 115 r 113<-->(R1:4 I1:4) s 114 r 114
+(R0:2 I0:1) s 114 r 113<-->(R1:3 I1:2) s 114 r 113
+Pkt stats for 4 :  s 555 r 551 d 0 f 1
+(R0:4 I0:0) s 114 r 113<-->(R1:5 I1:0) s 114 r 113
+(R0:4 I0:1) s 114 r 113<-->(R1:6 I1:0) s 114 r 113
+(R0:4 I0:2) s 100 r 99<-->(R1:7 I1:0) s 99 r 100
+(R0:4 I0:3) s 114 r 113<-->(R1:20 I1:1) s 114 r 113
+(R0:3 I0:1) s 115 r 113<-->(R1:4 I1:4) s 114 r 114
+Pkt stats for 5 :  s 114 r 113 d 0 f 0
+(R0:4 I0:0) s 114 r 113<-->(R1:5 I1:0) s 114 r 113
+Pkt stats for 6 :  s 114 r 113 d 0 f 0
+(R0:4 I0:1) s 114 r 113<-->(R1:6 I1:0) s 114 r 113
+Pkt stats for 7 :  s 872 r 866 d 0 f 1
+(R0:4 I0:2) s 100 r 99<-->(R1:7 I1:0) s 99 r 100
+(R0:7 I0:1) s 114 r 113<-->(R1:8 I1:0) s 114 r 113
+(R0:7 I0:2) s 114 r 113<-->(R1:9 I1:0) s 114 r 113
+(R0:7 I0:3) s 114 r 113<-->(R1:10 I1:0) s 114 r 113
+(R0:7 I0:4) s 114 r 113<-->(R1:11 I1:0) s 114 r 113
+(R0:7 I0:5) s 114 r 113<-->(R1:12 I1:0) s 114 r 113
+(R0:7 I0:6) s 115 r 113<-->(R1:13 I1:0) s 114 r 114
+(R0:7 I0:7) s 89 r 89<-->(R1:18 I1:1) s 89 r 89
+Pkt stats for 8 :  s 114 r 113 d 0 f 0
+(R0:7 I0:1) s 114 r 113<-->(R1:8 I1:0) s 114 r 113
+Pkt stats for 9 :  s 114 r 113 d 0 f 0
+(R0:7 I0:2) s 114 r 113<-->(R1:9 I1:0) s 114 r 113
+Pkt stats for 10 :  s 114 r 113 d 0 f 0
+(R0:7 I0:3) s 114 r 113<-->(R1:10 I1:0) s 114 r 113
+Pkt stats for 11 :  s 114 r 113 d 0 f 0
+(R0:7 I0:4) s 114 r 113<-->(R1:11 I1:0) s 114 r 113
+Pkt stats for 12 :  s 114 r 113 d 0 f 0
+(R0:7 I0:5) s 114 r 113<-->(R1:12 I1:0) s 114 r 113
+Pkt stats for 13 :  s 342 r 339 d 0 f 1
+(R0:7 I0:6) s 115 r 113<-->(R1:13 I1:0) s 114 r 114
+(R0:13 I0:1) s 114 r 113<-->(R1:14 I1:0) s 114 r 113
+(R0:13 I0:2) s 115 r 113<-->(R1:15 I1:0) s 114 r 114
+Pkt stats for 14 :  s 114 r 113 d 0 f 0
+(R0:13 I0:1) s 114 r 113<-->(R1:14 I1:0) s 114 r 113
+Pkt stats for 15 :  s 295 r 292 d 0 f 1
+(R0:13 I0:2) s 115 r 113<-->(R1:15 I1:0) s 114 r 114
+(R0:15 I0:1) s 68 r 66<-->(R1:16 I1:0) s 67 r 67
+(R0:15 I0:2) s 114 r 113<-->(R1:17 I1:0) s 114 r 113
+(R0:15 I0:3) s 0 r 0<-->(R1:18 I1:2) s 0 r 0
+Pkt stats for 16 :  s 67 r 67 d 0 f 0
+(R0:15 I0:1) s 68 r 66<-->(R1:16 I1:0) s 67 r 67
+Pkt stats for 17 :  s 114 r 113 d 0 f 0
+(R0:15 I0:2) s 114 r 113<-->(R1:17 I1:0) s 114 r 113
+Pkt stats for 18 :  s 303 r 302 d 0 f 0
+(R0:18 I0:0) s 100 r 100<-->(R1:20 I1:2) s 100 r 100
+(R0:7 I0:7) s 89 r 89<-->(R1:18 I1:1) s 89 r 89
+(R0:15 I0:3) s 0 r 0<-->(R1:18 I1:2) s 0 r 0
+(R0:18 I0:3) s 114 r 113<-->(R1:19 I1:0) s 114 r 113
+Pkt stats for 19 :  s 114 r 113 d 0 f 0
+(R0:18 I0:3) s 114 r 113<-->(R1:19 I1:0) s 114 r 113
+Pkt stats for 20 :  s 898 r 891 d 0 f 0
+(R0:2 I0:2) s 114 r 113<-->(R1:20 I1:0) s 114 r 113
+(R0:4 I0:3) s 114 r 113<-->(R1:20 I1:1) s 114 r 113
+(R0:18 I0:0) s 100 r 100<-->(R1:20 I1:2) s 100 r 100
+(R0:20 I0:3) s 114 r 113<-->(R1:21 I1:0) s 114 r 113
+(R0:20 I0:4) s 114 r 113<-->(R1:22 I1:0) s 114 r 113
+(R0:20 I0:5) s 114 r 113<-->(R1:23 I1:0) s 114 r 113
+(R0:20 I0:6) s 114 r 113<-->(R1:24 I1:0) s 114 r 113
+(R0:20 I0:7) s 114 r 113<-->(R1:25 I1:0) s 114 r 113
+Pkt stats for 21 :  s 114 r 113 d 0 f 0
+(R0:20 I0:3) s 114 r 113<-->(R1:21 I1:0) s 114 r 113
+Pkt stats for 22 :  s 114 r 113 d 0 f 0
+(R0:20 I0:4) s 114 r 113<-->(R1:22 I1:0) s 114 r 113
+Pkt stats for 23 :  s 114 r 113 d 0 f 0
+(R0:20 I0:5) s 114 r 113<-->(R1:23 I1:0) s 114 r 113
+Pkt stats for 24 :  s 114 r 113 d 0 f 0
+(R0:20 I0:6) s 114 r 113<-->(R1:24 I1:0) s 114 r 113
+Pkt stats for 25 :  s 114 r 113 d 0 f 0
+(R0:20 I0:7) s 114 r 113<-->(R1:25 I1:0) s 114 r 113
+Time :116
+Time :117
+Time :118
+Time :119

@@ -1,0 +1,711 @@
+Loading configuration : test1.cfg
+Reading file test1.cfg
+Created Router 0 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Created Router 1 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Created Router 2 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Created Router 3 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Created Router 4 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: off expire entries off
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:1 I1:0 W1:1)
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:1 I1:0 W1:1)
+Adding link Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:2 I0:1 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:2 I0:1 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:3 I0:1 W0:1)<-->(R1:4 I1:1 W1:1)
+Adding link Link (R0:3 I0:1 W0:1)<-->(R1:4 I1:1 W1:1)
+Adding link Link (R0:0 I0:1 W0:3)<-->(R1:4 I1:0 W1:3)
+Adding link Link (R0:0 I0:1 W0:3)<-->(R1:4 I1:0 W1:3)
+Adding Event is send to occur at 10 with 0 3
+Adding Event is send to occur at 30 with 0 3
+Adding Event is downlink to occur at 15 with 1 1 2 0
+Adding Event is dumpPacketStats to occur at 1 with all
+Adding Event is dumprt to occur at 1 with all
+Adding Event is dumpPacketStats to occur at 2 with all
+Adding Event is dumprt to occur at 2 with all
+Adding Event is dumpPacketStats to occur at 3 with all
+Adding Event is dumprt to occur at 3 with all
+Adding Event is dumprt to occur at 4 with all
+Adding Event is dumprt to occur at 5 with all
+Adding Event is dumprt to occur at 6 with all
+Adding Event is dumprt to occur at 7 with all
+Adding Event is dumprt to occur at 8 with all
+Adding Event is dumprt to occur at 9 with all
+Adding Event is dumprt to occur at 10 with all
+Adding Event is dumprt to occur at 11 with all
+Adding Event is dumprt to occur at 12 with all
+Adding Event is dumprt to occur at 13 with all
+Adding Event is dumpPacketStats to occur at 14 with all
+Adding Event is dumprt to occur at 14 with all
+Adding Event is dumpPacketStats to occur at 21 with all
+Adding Event is dumprt to occur at 21 with all
+Adding Event is dumpPacketStats to occur at 22 with all
+Adding Event is dumprt to occur at 22 with all
+Adding Event is dumpPacketStats to occur at 23 with all
+Adding Event is dumprt to occur at 23 with all
+Adding Event is dumpPacketStats to occur at 24 with all
+Adding Event is dumprt to occur at 24 with all
+Time :1
+event Event is dumpPacketStats to occur at 1 with all
+Pkt stats for 0 :  s 0 r 0 d 0 f 0
+(R0:0 I0:0) s 0 r 0<-->(R1:1 I1:0) s 0 r 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+Pkt stats for 1 :  s 0 r 0 d 0 f 0
+(R0:0 I0:0) s 0 r 0<-->(R1:1 I1:0) s 0 r 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+Pkt stats for 2 :  s 0 r 0 d 0 f 0
+(R0:1 I0:1) s 0 r 0<-->(R1:2 I1:0) s 0 r 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+Pkt stats for 3 :  s 0 r 0 d 0 f 0
+(R0:2 I0:1) s 0 r 0<-->(R1:3 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Pkt stats for 4 :  s 0 r 0 d 0 f 0
+(R0:0 I0:1) s 0 r 0<-->(R1:4 I1:0) s 0 r 0
+(R0:3 I0:1) s 0 r 0<-->(R1:4 I1:1) s 0 r 0
+Router 0
+d 0 i -1 m 0
+Router 1
+d 1 i -1 m 0
+Router 2
+d 2 i -1 m 0
+Router 3
+d 3 i -1 m 0
+Router 4
+d 4 i -1 m 0
+Time :2
+event Event is dumpPacketStats to occur at 2 with all
+Pkt stats for 0 :  s 2 r 0 d 0 f 0
+(R0:0 I0:0) s 1 r 0<-->(R1:1 I1:0) s 1 r 0
+(R0:0 I0:1) s 1 r 0<-->(R1:4 I1:0) s 1 r 0
+Pkt stats for 1 :  s 2 r 0 d 0 f 0
+(R0:0 I0:0) s 1 r 0<-->(R1:1 I1:0) s 1 r 0
+(R0:1 I0:1) s 1 r 0<-->(R1:2 I1:0) s 1 r 0
+Pkt stats for 2 :  s 2 r 0 d 0 f 0
+(R0:1 I0:1) s 1 r 0<-->(R1:2 I1:0) s 1 r 0
+(R0:2 I0:1) s 1 r 0<-->(R1:3 I1:0) s 1 r 0
+Pkt stats for 3 :  s 2 r 0 d 0 f 0
+(R0:2 I0:1) s 1 r 0<-->(R1:3 I1:0) s 1 r 0
+(R0:3 I0:1) s 1 r 0<-->(R1:4 I1:1) s 1 r 0
+Pkt stats for 4 :  s 2 r 0 d 0 f 0
+(R0:0 I0:1) s 1 r 0<-->(R1:4 I1:0) s 1 r 0
+(R0:3 I0:1) s 1 r 0<-->(R1:4 I1:1) s 1 r 0
+Router 0
+d 0 i -1 m 0
+Router 1
+d 1 i -1 m 0
+Router 2
+d 2 i -1 m 0
+Router 3
+d 3 i -1 m 0
+Router 4
+d 4 i -1 m 0
+Time :3
+event Event is dumpPacketStats to occur at 3 with all
+Pkt stats for 0 :  s 4 r 2 d 0 f 0
+(R0:0 I0:0) s 2 r 1<-->(R1:1 I1:0) s 2 r 1
+(R0:0 I0:1) s 2 r 1<-->(R1:4 I1:0) s 2 r 1
+Pkt stats for 1 :  s 4 r 2 d 0 f 0
+(R0:0 I0:0) s 2 r 1<-->(R1:1 I1:0) s 2 r 1
+(R0:1 I0:1) s 2 r 1<-->(R1:2 I1:0) s 2 r 1
+Pkt stats for 2 :  s 4 r 2 d 0 f 0
+(R0:1 I0:1) s 2 r 1<-->(R1:2 I1:0) s 2 r 1
+(R0:2 I0:1) s 2 r 1<-->(R1:3 I1:0) s 2 r 1
+Pkt stats for 3 :  s 4 r 2 d 0 f 0
+(R0:2 I0:1) s 2 r 1<-->(R1:3 I1:0) s 2 r 1
+(R0:3 I0:1) s 2 r 1<-->(R1:4 I1:1) s 2 r 1
+Pkt stats for 4 :  s 4 r 2 d 0 f 0
+(R0:0 I0:1) s 2 r 1<-->(R1:4 I1:0) s 2 r 1
+(R0:3 I0:1) s 2 r 1<-->(R1:4 I1:1) s 2 r 1
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+Router 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+Router 3
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :4
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 1 m 4
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 0 m 4
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 1 m 4
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 0 m 4
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :5
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :6
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :7
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :8
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :9
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :10
+Forwarded packet src 0 dst 3 type 1 ttl 254 seq 1 path
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :11
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Forwarded packet src 0 dst 3 type 1 ttl 253 seq 1 path (0.0->1.0)
+Time :12
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Forwarded packet src 0 dst 3 type 1 ttl 252 seq 1 path (0.0->1.0) (1.1->2.0)
+Time :13
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Received packet src 0 dst 3 type 1 ttl 252 seq 1 path (0.0->1.0) (1.1->2.0) (2.1->3.0)
+Time :14
+event Event is dumpPacketStats to occur at 14 with all
+Pkt stats for 0 :  s 27 r 24 d 0 f 0
+(R0:0 I0:0) s 14 r 12<-->(R1:1 I1:0) s 13 r 13
+(R0:0 I0:1) s 13 r 12<-->(R1:4 I1:0) s 13 r 12
+Pkt stats for 1 :  s 26 r 24 d 0 f 1
+(R0:0 I0:0) s 14 r 12<-->(R1:1 I1:0) s 13 r 13
+(R0:1 I0:1) s 14 r 12<-->(R1:2 I1:0) s 13 r 13
+Pkt stats for 2 :  s 26 r 24 d 0 f 1
+(R0:1 I0:1) s 14 r 12<-->(R1:2 I1:0) s 13 r 13
+(R0:2 I0:1) s 14 r 12<-->(R1:3 I1:0) s 13 r 13
+Pkt stats for 3 :  s 26 r 25 d 0 f 0
+(R0:2 I0:1) s 14 r 12<-->(R1:3 I1:0) s 13 r 13
+(R0:3 I0:1) s 13 r 12<-->(R1:4 I1:1) s 13 r 12
+Pkt stats for 4 :  s 26 r 24 d 0 f 0
+(R0:0 I0:1) s 13 r 12<-->(R1:4 I1:0) s 13 r 12
+(R0:3 I0:1) s 13 r 12<-->(R1:4 I1:1) s 13 r 12
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 0 m 2
+d 3 i 0 m 3
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 2
+d 4 i 1 m 3
+Router 2
+d 0 i 0 m 2
+d 1 i 0 m 1
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 0 m 3
+d 1 i 0 m 2
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 1 m 3
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :15
+Setting link status to down Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Time :16
+Time :17
+Time :18
+Time :19
+Time :20
+Time :21
+event Event is dumpPacketStats to occur at 21 with all
+Pkt stats for 0 :  s 41 r 38 d 0 f 0
+(R0:0 I0:0) s 21 r 19<-->(R1:1 I1:0) s 20 r 20
+(R0:0 I0:1) s 20 r 19<-->(R1:4 I1:0) s 20 r 19
+Pkt stats for 1 :  s 34 r 33 d 0 f 1
+(R0:0 I0:0) s 21 r 19<-->(R1:1 I1:0) s 20 r 20
+(R0:1 I0:1) s 15 r 14<-->(R1:2 I1:0) s 14 r 15
+Pkt stats for 2 :  s 34 r 33 d 0 f 1
+(R0:1 I0:1) s 15 r 14<-->(R1:2 I1:0) s 14 r 15
+(R0:2 I0:1) s 21 r 19<-->(R1:3 I1:0) s 20 r 20
+Pkt stats for 3 :  s 40 r 39 d 0 f 0
+(R0:2 I0:1) s 21 r 19<-->(R1:3 I1:0) s 20 r 20
+(R0:3 I0:1) s 20 r 19<-->(R1:4 I1:1) s 20 r 19
+Pkt stats for 4 :  s 40 r 38 d 0 f 0
+(R0:0 I0:1) s 20 r 19<-->(R1:4 I1:0) s 20 r 19
+(R0:3 I0:1) s 20 r 19<-->(R1:4 I1:1) s 20 r 19
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 1 m 5
+d 3 i 1 m 4
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 0 m 6
+d 3 i 0 m 5
+d 4 i 0 m 4
+Router 2
+d 0 i 1 m 5
+d 1 i 1 m 6
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 1 m 4
+d 1 i 1 m 5
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 0 m 4
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :22
+event Event is dumpPacketStats to occur at 22 with all
+Pkt stats for 0 :  s 43 r 40 d 0 f 0
+(R0:0 I0:0) s 22 r 20<-->(R1:1 I1:0) s 21 r 21
+(R0:0 I0:1) s 21 r 20<-->(R1:4 I1:0) s 21 r 20
+Pkt stats for 1 :  s 35 r 34 d 0 f 1
+(R0:0 I0:0) s 22 r 20<-->(R1:1 I1:0) s 21 r 21
+(R0:1 I0:1) s 15 r 14<-->(R1:2 I1:0) s 14 r 15
+Pkt stats for 2 :  s 35 r 34 d 0 f 1
+(R0:1 I0:1) s 15 r 14<-->(R1:2 I1:0) s 14 r 15
+(R0:2 I0:1) s 22 r 20<-->(R1:3 I1:0) s 21 r 21
+Pkt stats for 3 :  s 42 r 41 d 0 f 0
+(R0:2 I0:1) s 22 r 20<-->(R1:3 I1:0) s 21 r 21
+(R0:3 I0:1) s 21 r 20<-->(R1:4 I1:1) s 21 r 20
+Pkt stats for 4 :  s 42 r 40 d 0 f 0
+(R0:0 I0:1) s 21 r 20<-->(R1:4 I1:0) s 21 r 20
+(R0:3 I0:1) s 21 r 20<-->(R1:4 I1:1) s 21 r 20
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 1 m 5
+d 3 i 1 m 4
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 0 m 6
+d 3 i 0 m 5
+d 4 i 0 m 4
+Router 2
+d 0 i 1 m 5
+d 1 i 1 m 6
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 1 m 4
+d 1 i 1 m 5
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 0 m 4
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :23
+event Event is dumpPacketStats to occur at 23 with all
+Pkt stats for 0 :  s 45 r 42 d 0 f 0
+(R0:0 I0:0) s 23 r 21<-->(R1:1 I1:0) s 22 r 22
+(R0:0 I0:1) s 22 r 21<-->(R1:4 I1:0) s 22 r 21
+Pkt stats for 1 :  s 36 r 35 d 0 f 1
+(R0:0 I0:0) s 23 r 21<-->(R1:1 I1:0) s 22 r 22
+(R0:1 I0:1) s 15 r 14<-->(R1:2 I1:0) s 14 r 15
+Pkt stats for 2 :  s 36 r 35 d 0 f 1
+(R0:1 I0:1) s 15 r 14<-->(R1:2 I1:0) s 14 r 15
+(R0:2 I0:1) s 23 r 21<-->(R1:3 I1:0) s 22 r 22
+Pkt stats for 3 :  s 44 r 43 d 0 f 0
+(R0:2 I0:1) s 23 r 21<-->(R1:3 I1:0) s 22 r 22
+(R0:3 I0:1) s 22 r 21<-->(R1:4 I1:1) s 22 r 21
+Pkt stats for 4 :  s 44 r 42 d 0 f 0
+(R0:0 I0:1) s 22 r 21<-->(R1:4 I1:0) s 22 r 21
+(R0:3 I0:1) s 22 r 21<-->(R1:4 I1:1) s 22 r 21
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 1 m 5
+d 3 i 1 m 4
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 0 m 6
+d 3 i 0 m 5
+d 4 i 0 m 4
+Router 2
+d 0 i 1 m 5
+d 1 i 1 m 6
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 1 m 4
+d 1 i 1 m 5
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 0 m 4
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :24
+event Event is dumpPacketStats to occur at 24 with all
+Pkt stats for 0 :  s 47 r 44 d 0 f 0
+(R0:0 I0:0) s 24 r 22<-->(R1:1 I1:0) s 23 r 23
+(R0:0 I0:1) s 23 r 22<-->(R1:4 I1:0) s 23 r 22
+Pkt stats for 1 :  s 37 r 36 d 0 f 1
+(R0:0 I0:0) s 24 r 22<-->(R1:1 I1:0) s 23 r 23
+(R0:1 I0:1) s 15 r 14<-->(R1:2 I1:0) s 14 r 15
+Pkt stats for 2 :  s 37 r 36 d 0 f 1
+(R0:1 I0:1) s 15 r 14<-->(R1:2 I1:0) s 14 r 15
+(R0:2 I0:1) s 24 r 22<-->(R1:3 I1:0) s 23 r 23
+Pkt stats for 3 :  s 46 r 45 d 0 f 0
+(R0:2 I0:1) s 24 r 22<-->(R1:3 I1:0) s 23 r 23
+(R0:3 I0:1) s 23 r 22<-->(R1:4 I1:1) s 23 r 22
+Pkt stats for 4 :  s 46 r 44 d 0 f 0
+(R0:0 I0:1) s 23 r 22<-->(R1:4 I1:0) s 23 r 22
+(R0:3 I0:1) s 23 r 22<-->(R1:4 I1:1) s 23 r 22
+Router 0
+d 0 i -1 m 0
+d 1 i 0 m 1
+d 2 i 1 m 5
+d 3 i 1 m 4
+d 4 i 1 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 0 m 6
+d 3 i 0 m 5
+d 4 i 0 m 4
+Router 2
+d 0 i 1 m 5
+d 1 i 1 m 6
+d 2 i -1 m 0
+d 3 i 1 m 1
+d 4 i 1 m 2
+Router 3
+d 0 i 1 m 4
+d 1 i 1 m 5
+d 2 i 0 m 1
+d 3 i -1 m 0
+d 4 i 1 m 1
+Router 4
+d 0 i 0 m 3
+d 1 i 0 m 4
+d 2 i 1 m 2
+d 3 i 1 m 1
+d 4 i -1 m 0
+Time :25
+Time :26
+Time :27
+Time :28
+Time :29
+Time :30
+Forwarded packet src 0 dst 3 type 1 ttl 254 seq 2 path
+Time :31
+Forwarded packet src 0 dst 3 type 1 ttl 253 seq 2 path (0.1->4.0)
+Time :32
+Received packet src 0 dst 3 type 1 ttl 253 seq 2 path (0.1->4.0) (4.1->3.1)
+Time :33
+Time :34
+Time :35
+Time :36
+Time :37
+Time :38
+Time :39

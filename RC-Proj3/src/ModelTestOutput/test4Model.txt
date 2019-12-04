@@ -1,0 +1,630 @@
+Loading configuration : test4.cfg
+Reading file test4.cfg
+Preverse on
+Created Router 0 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 1 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 2 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 3 has 4 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 4 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 5 has 3 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 6 has 4 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Created Router 7 has 2 interfaces and uses class DV update interval 1, split horizon + poison reverse: on expire entries off
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:0 I0:0 W0:1)<-->(R1:3 I1:0 W1:1)
+Adding link Link (R0:0 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:0 I0:1 W0:1)<-->(R1:2 I1:0 W1:1)
+Adding link Link (R0:0 I0:2 W0:1)<-->(R1:1 I1:0 W1:1)
+Adding link Link (R0:0 I0:2 W0:1)<-->(R1:1 I1:0 W1:1)
+Adding link Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:1 W1:1)
+Adding link Link (R0:1 I0:1 W0:1)<-->(R1:2 I1:1 W1:1)
+Adding link Link (R0:2 I0:2 W0:2)<-->(R1:5 I1:0 W1:2)
+Adding link Link (R0:2 I0:2 W0:2)<-->(R1:5 I1:0 W1:2)
+Adding link Link (R0:3 I0:1 W0:1)<-->(R1:4 I1:0 W1:1)
+Adding link Link (R0:3 I0:1 W0:1)<-->(R1:4 I1:0 W1:1)
+Adding link Link (R0:3 I0:2 W0:1)<-->(R1:6 I1:1 W1:1)
+Adding link Link (R0:3 I0:2 W0:1)<-->(R1:6 I1:1 W1:1)
+Adding link Link (R0:3 I0:3 W0:1)<-->(R1:5 I1:1 W1:1)
+Adding link Link (R0:3 I0:3 W0:1)<-->(R1:5 I1:1 W1:1)
+Adding link Link (R0:4 I0:1 W0:10)<-->(R1:6 I1:0 W1:10)
+Adding link Link (R0:4 I0:1 W0:10)<-->(R1:6 I1:0 W1:10)
+Adding link Link (R0:5 I0:2 W0:1)<-->(R1:6 I1:2 W1:1)
+Adding link Link (R0:5 I0:2 W0:1)<-->(R1:6 I1:2 W1:1)
+Adding link Link (R0:7 I0:0 W0:1)<-->(R1:4 I1:2 W1:1)
+Adding link Link (R0:7 I0:0 W0:1)<-->(R1:4 I1:2 W1:1)
+Adding link Link (R0:7 I0:1 W0:1)<-->(R1:6 I1:3 W1:1)
+Adding link Link (R0:7 I0:1 W0:1)<-->(R1:6 I1:3 W1:1)
+Adding Event is send to occur at 10 with 7 2
+Adding Event is downlink to occur at 15 with 2 2 5 0
+Adding Event is send to occur at 20 with 7 2
+Adding Event is dumprt to occur at 20 with all
+Adding Event is downlink to occur at 30 with 0 0 3 0
+Adding Event is dumprt to occur at 32 with all
+Adding Event is dumprt to occur at 34 with all
+Adding Event is dumprt to occur at 36 with all
+Adding Event is send to occur at 40 with 7 2
+Adding Event is dumprt to occur at 40 with all
+Adding Event is dumprt to occur at 99 with all
+Adding Event is dumpPacketStats to occur at 99 with all
+Time :1
+Time :2
+Time :3
+Time :4
+Time :5
+Time :6
+Time :7
+Time :8
+Time :9
+Time :10
+Forwarded packet src 7 dst 2 type 1 ttl 254 seq 1 path
+Time :11
+Forwarded packet src 7 dst 2 type 1 ttl 253 seq 1 path (7.1->6.3)
+Time :12
+Forwarded packet src 7 dst 2 type 1 ttl 252 seq 1 path (7.1->6.3) (6.2->5.2)
+Time :13
+Received packet src 7 dst 2 type 1 ttl 252 seq 1 path (7.1->6.3) (6.2->5.2) (5.0->2.2)
+Time :14
+Time :15
+Setting link status to down Link (R0:2 I0:2 W0:2)<-->(R1:5 I1:0 W1:2)
+Time :16
+Time :17
+Time :18
+Time :19
+Time :20
+Forwarded packet src 7 dst 2 type 1 ttl 254 seq 2 path
+Router 0
+d 0 i -1 m 0
+d 1 i 2 m 1
+d 2 i 1 m 1
+d 3 i 0 m 1
+d 4 i 0 m 2
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i 0 m 3
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 0 m 2
+d 4 i 0 m 3
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 4
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 1
+d 2 i -1 m 0
+d 3 i 0 m 2
+d 4 i 0 m 3
+d 5 i 0 m 3
+d 6 i 0 m 3
+d 7 i 0 m 4
+Router 3
+d 0 i 0 m 1
+d 1 i 0 m 2
+d 2 i 0 m 2
+d 3 i -1 m 0
+d 4 i 1 m 1
+d 5 i 3 m 1
+d 6 i 2 m 1
+d 7 i 1 m 2
+Router 4
+d 0 i 0 m 2
+d 1 i 0 m 3
+d 2 i 0 m 3
+d 3 i 0 m 1
+d 4 i -1 m 0
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i 2 m 1
+Router 5
+d 0 i 1 m 2
+d 1 i 1 m 3
+d 2 i 1 m 3
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i -1 m 0
+d 6 i 2 m 1
+d 7 i 2 m 2
+Router 6
+d 0 i 1 m 2
+d 1 i 1 m 3
+d 2 i 1 m 3
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i 2 m 1
+d 6 i -1 m 0
+d 7 i 3 m 1
+Router 7
+d 0 i 0 m 3
+d 1 i 0 m 4
+d 2 i 0 m 4
+d 3 i 0 m 2
+d 4 i 0 m 1
+d 5 i 1 m 2
+d 6 i 1 m 1
+d 7 i -1 m 0
+Time :21
+Forwarded packet src 7 dst 2 type 1 ttl 253 seq 2 path (7.0->4.2)
+Time :22
+Forwarded packet src 7 dst 2 type 1 ttl 252 seq 2 path (7.0->4.2) (4.0->3.1)
+Time :23
+Forwarded packet src 7 dst 2 type 1 ttl 251 seq 2 path (7.0->4.2) (4.0->3.1) (3.0->0.0)
+Time :24
+Received packet src 7 dst 2 type 1 ttl 251 seq 2 path (7.0->4.2) (4.0->3.1) (3.0->0.0) (0.1->2.0)
+Time :25
+Time :26
+Time :27
+Time :28
+Time :29
+Time :30
+Setting link status to down Link (R0:0 I0:0 W0:1)<-->(R1:3 I1:0 W1:1)
+Time :31
+Time :32
+Router 0
+d 0 i -1 m 0
+d 1 i 2 m 1
+d 2 i 1 m 1
+d 3 i 0 m 60
+d 4 i 0 m 60
+d 5 i 0 m 60
+d 6 i 0 m 60
+d 7 i 0 m 60
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 1 m 3
+d 4 i 1 m 4
+d 5 i 1 m 4
+d 6 i 1 m 4
+d 7 i 1 m 5
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 1
+d 2 i -1 m 0
+d 3 i 1 m 3
+d 4 i 1 m 4
+d 5 i 1 m 4
+d 6 i 1 m 4
+d 7 i 1 m 5
+Router 3
+d 0 i 0 m 60
+d 1 i 0 m 60
+d 2 i 0 m 60
+d 3 i -1 m 0
+d 4 i 1 m 1
+d 5 i 3 m 1
+d 6 i 2 m 1
+d 7 i 1 m 2
+Router 4
+d 0 i 1 m 12
+d 1 i 1 m 13
+d 2 i 1 m 13
+d 3 i 0 m 1
+d 4 i -1 m 0
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i 2 m 1
+Router 5
+d 0 i 2 m 3
+d 1 i 2 m 4
+d 2 i 2 m 4
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i -1 m 0
+d 6 i 2 m 1
+d 7 i 2 m 2
+Router 6
+d 0 i 2 m 3
+d 1 i 2 m 4
+d 2 i 2 m 4
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i 2 m 1
+d 6 i -1 m 0
+d 7 i 3 m 1
+Router 7
+d 0 i 0 m 3
+d 1 i 0 m 4
+d 2 i 0 m 4
+d 3 i 0 m 2
+d 4 i 0 m 1
+d 5 i 1 m 2
+d 6 i 1 m 1
+d 7 i -1 m 0
+Time :33
+Time :34
+Router 0
+d 0 i -1 m 0
+d 1 i 2 m 1
+d 2 i 1 m 1
+d 3 i 1 m 60
+d 4 i 1 m 60
+d 5 i 1 m 60
+d 6 i 1 m 60
+d 7 i 1 m 60
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 0 m 5
+d 4 i 0 m 6
+d 5 i 0 m 6
+d 6 i 0 m 6
+d 7 i 0 m 7
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 1
+d 2 i -1 m 0
+d 3 i 1 m 60
+d 4 i 1 m 60
+d 5 i 1 m 60
+d 6 i 1 m 60
+d 7 i 1 m 60
+Router 3
+d 0 i 2 m 5
+d 1 i 2 m 6
+d 2 i 2 m 6
+d 3 i -1 m 0
+d 4 i 1 m 1
+d 5 i 3 m 1
+d 6 i 2 m 1
+d 7 i 1 m 2
+Router 4
+d 0 i 0 m 5
+d 1 i 0 m 6
+d 2 i 0 m 6
+d 3 i 0 m 1
+d 4 i -1 m 0
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i 2 m 1
+Router 5
+d 0 i 1 m 5
+d 1 i 1 m 6
+d 2 i 1 m 6
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i -1 m 0
+d 6 i 2 m 1
+d 7 i 2 m 2
+Router 6
+d 0 i 3 m 60
+d 1 i 3 m 60
+d 2 i 3 m 60
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i 2 m 1
+d 6 i -1 m 0
+d 7 i 3 m 1
+Router 7
+d 0 i 1 m 60
+d 1 i 1 m 60
+d 2 i 1 m 60
+d 3 i 0 m 2
+d 4 i 0 m 1
+d 5 i 1 m 2
+d 6 i 1 m 1
+d 7 i -1 m 0
+Time :35
+Time :36
+Router 0
+d 0 i -1 m 0
+d 1 i 2 m 1
+d 2 i 1 m 1
+d 3 i 1 m 7
+d 4 i 1 m 8
+d 5 i 1 m 8
+d 6 i 1 m 8
+d 7 i 1 m 9
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 0 m 60
+d 4 i 0 m 60
+d 5 i 0 m 60
+d 6 i 0 m 60
+d 7 i 0 m 60
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 1
+d 2 i -1 m 0
+d 3 i 1 m 60
+d 4 i 1 m 60
+d 5 i 1 m 60
+d 6 i 1 m 60
+d 7 i 1 m 60
+Router 3
+d 0 i 2 m 7
+d 1 i 2 m 8
+d 2 i 2 m 8
+d 3 i -1 m 0
+d 4 i 1 m 1
+d 5 i 3 m 1
+d 6 i 2 m 1
+d 7 i 1 m 2
+Router 4
+d 0 i 1 m 16
+d 1 i 1 m 17
+d 2 i 1 m 17
+d 3 i 0 m 1
+d 4 i -1 m 0
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i 2 m 1
+Router 5
+d 0 i 1 m 60
+d 1 i 1 m 60
+d 2 i 1 m 60
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i -1 m 0
+d 6 i 2 m 1
+d 7 i 2 m 2
+Router 6
+d 0 i 2 m 7
+d 1 i 2 m 8
+d 2 i 2 m 8
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i 2 m 1
+d 6 i -1 m 0
+d 7 i 3 m 1
+Router 7
+d 0 i 0 m 7
+d 1 i 0 m 8
+d 2 i 0 m 8
+d 3 i 0 m 2
+d 4 i 0 m 1
+d 5 i 1 m 2
+d 6 i 1 m 1
+d 7 i -1 m 0
+Time :37
+Time :38
+Time :39
+Time :40
+Forwarded packet src 7 dst 2 type 1 ttl 254 seq 3 path
+Router 0
+d 0 i -1 m 0
+d 1 i 2 m 1
+d 2 i 1 m 1
+d 3 i 1 m 60
+d 4 i 1 m 60
+d 5 i 1 m 60
+d 6 i 1 m 60
+d 7 i 1 m 60
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 0 m 11
+d 4 i 0 m 12
+d 5 i 0 m 12
+d 6 i 0 m 12
+d 7 i 0 m 13
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 1
+d 2 i -1 m 0
+d 3 i 1 m 60
+d 4 i 1 m 60
+d 5 i 1 m 60
+d 6 i 1 m 60
+d 7 i 1 m 60
+Router 3
+d 0 i 2 m 11
+d 1 i 2 m 12
+d 2 i 2 m 12
+d 3 i -1 m 0
+d 4 i 1 m 1
+d 5 i 3 m 1
+d 6 i 2 m 1
+d 7 i 1 m 2
+Router 4
+d 0 i 1 m 20
+d 1 i 1 m 21
+d 2 i 1 m 21
+d 3 i 0 m 1
+d 4 i -1 m 0
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i 2 m 1
+Router 5
+d 0 i 1 m 60
+d 1 i 1 m 60
+d 2 i 1 m 60
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i -1 m 0
+d 6 i 2 m 1
+d 7 i 2 m 2
+Router 6
+d 0 i 2 m 11
+d 1 i 2 m 12
+d 2 i 2 m 12
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i 2 m 1
+d 6 i -1 m 0
+d 7 i 3 m 1
+Router 7
+d 0 i 0 m 11
+d 1 i 0 m 12
+d 2 i 0 m 12
+d 3 i 0 m 2
+d 4 i 0 m 1
+d 5 i 1 m 2
+d 6 i 1 m 1
+d 7 i -1 m 0
+Time :41
+Forwarded packet src 7 dst 2 type 1 ttl 253 seq 3 path (7.0->4.2)
+Time :42
+Forwarded packet src 7 dst 2 type 1 ttl 252 seq 3 path (7.0->4.2) (4.0->3.1)
+Time :43
+Forwarded packet src 7 dst 2 type 1 ttl 251 seq 3 path (7.0->4.2) (4.0->3.1) (3.2->6.1)
+Time :44
+Forwarded packet src 7 dst 2 type 1 ttl 250 seq 3 path (7.0->4.2) (4.0->3.1) (3.2->6.1) (6.2->5.2)
+Time :45
+Forwarded packet src 7 dst 2 type 1 ttl 249 seq 3 path (7.0->4.2) (4.0->3.1) (3.2->6.1) (6.2->5.2) (5.1->3.3)
+Time :46
+Forwarded packet src 7 dst 2 type 1 ttl 248 seq 3 path (7.0->4.2) (4.0->3.1) (3.2->6.1) (6.2->5.2) (5.1->3.3) (3.2->6.1)
+Time :47
+Dropping packet src 7 dst 2 type 1 ttl 248 seq 3 path (7.0->4.2) (4.0->3.1) (3.2->6.1) (6.2->5.2) (5.1->3.3) (3.2->6.1) (6.0->4.1)
+Time :48
+Time :49
+Time :50
+Time :51
+Time :52
+Time :53
+Time :54
+Time :55
+Time :56
+Time :57
+Time :58
+Time :59
+Time :60
+Time :61
+Time :62
+Time :63
+Time :64
+Time :65
+Time :66
+Time :67
+Time :68
+Time :69
+Time :70
+Time :71
+Time :72
+Time :73
+Time :74
+Time :75
+Time :76
+Time :77
+Time :78
+Time :79
+Time :80
+Time :81
+Time :82
+Time :83
+Time :84
+Time :85
+Time :86
+Time :87
+Time :88
+Time :89
+Time :90
+Time :91
+Time :92
+Time :93
+Time :94
+Time :95
+Time :96
+Time :97
+Time :98
+Time :99
+Router 0
+d 0 i -1 m 0
+d 1 i 2 m 1
+d 2 i 1 m 1
+d 3 i 1 m 60
+d 4 i 1 m 60
+d 5 i 1 m 60
+d 6 i 1 m 60
+d 7 i 1 m 60
+Router 1
+d 0 i 0 m 1
+d 1 i -1 m 0
+d 2 i 1 m 1
+d 3 i 0 m 60
+d 4 i 0 m 60
+d 5 i 0 m 60
+d 6 i 0 m 60
+d 7 i 0 m 60
+Router 2
+d 0 i 0 m 1
+d 1 i 1 m 1
+d 2 i -1 m 0
+d 3 i 1 m 60
+d 4 i 1 m 60
+d 5 i 1 m 60
+d 6 i 1 m 60
+d 7 i 1 m 60
+Router 3
+d 0 i 2 m 60
+d 1 i 2 m 60
+d 2 i 2 m 60
+d 3 i -1 m 0
+d 4 i 1 m 1
+d 5 i 3 m 1
+d 6 i 2 m 1
+d 7 i 1 m 2
+Router 4
+d 0 i 0 m 60
+d 1 i 0 m 60
+d 2 i 0 m 60
+d 3 i 0 m 1
+d 4 i -1 m 0
+d 5 i 0 m 2
+d 6 i 0 m 2
+d 7 i 2 m 1
+Router 5
+d 0 i 1 m 60
+d 1 i 1 m 60
+d 2 i 1 m 60
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i -1 m 0
+d 6 i 2 m 1
+d 7 i 2 m 2
+Router 6
+d 0 i 2 m 60
+d 1 i 2 m 60
+d 2 i 2 m 60
+d 3 i 1 m 1
+d 4 i 1 m 2
+d 5 i 2 m 1
+d 6 i -1 m 0
+d 7 i 3 m 1
+Router 7
+d 0 i 0 m 60
+d 1 i 0 m 60
+d 2 i 0 m 60
+d 3 i 0 m 2
+d 4 i 0 m 1
+d 5 i 1 m 2
+d 6 i 1 m 1
+d 7 i -1 m 0
+event Event is dumpPacketStats to occur at 99 with all
+Pkt stats for 0 :  s 225 r 223 d 0 f 1
+(R0:0 I0:0) s 29 r 30<-->(R1:3 I1:0) s 30 r 29
+(R0:0 I0:1) s 99 r 97<-->(R1:2 I1:0) s 98 r 98
+(R0:0 I0:2) s 98 r 97<-->(R1:1 I1:0) s 98 r 97
+Pkt stats for 1 :  s 196 r 194 d 0 f 0
+(R0:0 I0:2) s 98 r 97<-->(R1:1 I1:0) s 98 r 97
+(R0:1 I0:1) s 98 r 97<-->(R1:2 I1:1) s 98 r 97
+Pkt stats for 2 :  s 210 r 210 d 0 f 0
+(R0:0 I0:1) s 99 r 97<-->(R1:2 I1:0) s 98 r 98
+(R0:1 I0:1) s 98 r 97<-->(R1:2 I1:1) s 98 r 97
+(R0:2 I0:2) s 14 r 15<-->(R1:5 I1:0) s 15 r 14
+Pkt stats for 3 :  s 323 r 320 d 0 f 3
+(R0:0 I0:0) s 29 r 30<-->(R1:3 I1:0) s 30 r 29
+(R0:3 I0:1) s 98 r 99<-->(R1:4 I1:0) s 100 r 97
+(R0:3 I0:2) s 100 r 97<-->(R1:6 I1:1) s 98 r 99
+(R0:3 I0:3) s 98 r 98<-->(R1:5 I1:1) s 99 r 97
+Pkt stats for 4 :  s 294 r 291 d 1 f 2
+(R0:3 I0:1) s 98 r 99<-->(R1:4 I1:0) s 100 r 97
+(R0:4 I0:1) s 98 r 98<-->(R1:6 I1:0) s 99 r 97
+(R0:7 I0:0) s 100 r 97<-->(R1:4 I1:2) s 98 r 99
+Pkt stats for 5 :  s 210 r 208 d 0 f 2
+(R0:2 I0:2) s 14 r 15<-->(R1:5 I1:0) s 15 r 14
+(R0:3 I0:3) s 98 r 98<-->(R1:5 I1:1) s 99 r 97
+(R0:5 I0:2) s 98 r 99<-->(R1:6 I1:2) s 100 r 97
+Pkt stats for 6 :  s 392 r 388 d 0 f 3
+(R0:4 I0:1) s 98 r 98<-->(R1:6 I1:0) s 99 r 97
+(R0:3 I0:2) s 100 r 97<-->(R1:6 I1:1) s 98 r 99
+(R0:5 I0:2) s 98 r 99<-->(R1:6 I1:2) s 100 r 97
+(R0:7 I0:1) s 99 r 97<-->(R1:6 I1:3) s 98 r 98
+Pkt stats for 7 :  s 199 r 194 d 0 f 0
+(R0:7 I0:0) s 100 r 97<-->(R1:4 I1:2) s 98 r 99
+(R0:7 I0:1) s 99 r 97<-->(R1:6 I1:3) s 98 r 98

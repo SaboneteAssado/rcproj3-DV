@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Vector;
 
 /*
  * My Distance-Vector Routing Implementation
@@ -12,11 +16,13 @@ public class DV implements RoutingAlgorithm
 	Router thisRouter = null;  // the router were this algorithm is running
 	int interval = 0;
 	boolean pReverse = false, expire = false;
+	Map<Integer, RoutingTableEntry> rt;
 	
 	// declare your routing table here using DVRoutingTableEntry (see end of this file)
 
 	public DV()
-	{		
+	{
+		rt = new HashMap<Integer, RoutingTableEntry>();
 	}
 
 	public void setRouterObject(Router obj)
@@ -41,34 +47,61 @@ public class DV implements RoutingAlgorithm
 
 	public void initalise()
 	{
+		DVRoutingTableEntry rte = new DVRoutingTableEntry(thisRouter.getId(), LOCAL, 0, 0);
+		rt.put(rte.d, rte);
 	}
 
 	public int getNextHop(int destination)
 	{
-		return UNKNOWN;
+		return destination;
 	}
 
 	public void tidyTable()
 	{
+		
 	}
 
 	public Packet generateRoutingPacket(int iface)
 	{
-		return null;
+		Packet pkt = new RoutingPacket(thisRouter.getId(), BROADCAST);
+		Payload pl = new Payload();
+		Iterator<Integer> it = rt.keySet().iterator();
+		while ( it.hasNext() )
+			pl.addEntry(rt.get(it.next()));
+		pkt.setPayload(pl);
+		return pkt;
 	}
 
 	public void processRoutingPacket(Packet p, int iface)
 	{
+		Payload pl = p.getPayload();
+		Vector<Object> v = pl.getData();
+		Iterator<Object> it = v.iterator();
+		while ( it.hasNext() ) {
+			RoutingTableEntry rte = (RoutingTableEntry) it.next();
+			RoutingTableEntry rteLocal = rt.get(rte.getDestination());
+			
+			if ( rteLocal == null)
+				rt.put(rte.getDestination(), rte);
+			
+			else if ( rteLocal.getMetric() > ( rte.getMetric() + thisRouter.getInterfaceWeight(iface)) ){
+				rteLocal.setMetric(rte.getMetric() + thisRouter.getInterfaceWeight(iface));
+				rteLocal.setInterface(iface);
+				rt.put(rte.getDestination(), rteLocal);
+			}
+		}
 	}
 
 	public void showRoutes()
 	{
 		System.out.println("Router "+thisRouter.getId() );
-
+		Iterator<Integer> it = rt.keySet().iterator();
+		while ( it.hasNext() ) {
+			RoutingTableEntry rte = rt.get(it.next());
+			System.out.println( "d " + rte.getDestination() + " i " + rte.getInterface() + " m " + rte.getMetric());
+		}
 	}
 }
-
-
 
 /*
  * My Routing Table Entry
@@ -104,7 +137,7 @@ class DVRoutingTableEntry implements RoutingTableEntry
 
 	public String toString() 
 	{
-		return "" + d + " " + i + " " + m + " " + t;
+		return null; //"" + d + " " + i + " " + m + " " + t;
 	}
 }
 
