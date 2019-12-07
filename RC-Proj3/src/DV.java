@@ -12,12 +12,12 @@ public class DV implements RoutingAlgorithm
 	static final int UNKNOWN = -2;		// unknown destination
 	static final int BROADCAST = 255;	// broadcast address
 	static final int INFINITY = 60;		// "infinity" metric
-	
+
 	Router thisRouter = null;  // the router were this algorithm is running
 	int interval = 0;
 	boolean pReverse = false, expire = false;
 	Map<Integer, RoutingTableEntry> rt;
-	
+
 	// declare your routing table here using DVRoutingTableEntry (see end of this file)
 
 	public DV()
@@ -64,11 +64,30 @@ public class DV implements RoutingAlgorithm
 		Iterator<Integer> it = rt.keySet().iterator();
 		while ( it.hasNext() ) {
 			RoutingTableEntry rte = rt.get(it.next());
-			boolean isUp = thisRouter.getInterfaceState(rte.getInterface());
-			if ( !isUp ) {
-				rte.setMetric(INFINITY);
+			int iface = rte.getInterface();
+			if ( iface > -1 ) {
+				boolean isUp = thisRouter.getInterfaceState(iface);
+				//haver outro caminho muda sempre para infinito
+				if ( !isUp ) {
+					rte.setMetric(INFINITY);
+					rt.put(rte.getDestination(), rte);
+				}
+				//voltou a cima ver se e mais pequena e mudar ou entao se e desconhecido
+				else if ( isUp && rte.getMetric()==INFINITY ) {
+					rte.setMetric(thisRouter.getInterfaceWeight(iface));
+					rt.put(rte.getDestination(), rte);
+				}
 			}
 		}
+		
+//		Iterator<Integer> it = rt.keySet().iterator();
+//		while ( it.hasNext() ) {
+//			RoutingTableEntry rte = rt.get(it.next());
+//			boolean isUp = thisRouter.getInterfaceState(rte.getInterface());
+//			if ( !isUp ) {
+//				rte.setMetric(INFINITY);
+//			}
+//		}
 	}
 
 	public Packet generateRoutingPacket(int iface)
@@ -79,7 +98,7 @@ public class DV implements RoutingAlgorithm
 		while ( it.hasNext() )
 			pl.addEntry(rt.get(it.next()));
 		pkt.setPayload(pl);
-		
+
 		return pkt;
 	}
 
@@ -92,7 +111,7 @@ public class DV implements RoutingAlgorithm
 		while ( it.hasNext() ) {
 			RoutingTableEntry rte = (RoutingTableEntry) it.next();
 			RoutingTableEntry rteLocal = rt.get(rte.getDestination());
-			
+
 			//acabei de conhecer um destino novo
 			if ( rteLocal == null) {
 				rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), 0);
@@ -125,7 +144,7 @@ class DVRoutingTableEntry implements RoutingTableEntry
 {
 
 	int d, i, m, t;
-	
+
 	public DVRoutingTableEntry(int d, int i, int m, int t)
 	{
 		this.d = d;
