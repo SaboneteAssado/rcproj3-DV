@@ -53,34 +53,22 @@ public class DV implements RoutingAlgorithm
 
 	public int getNextHop(int destination)
 	{
-		return destination;
+		RoutingTableEntry rte = rt.get(destination);
+		if ( rte != null )
+			return rte.getInterface();
+		return -2;
 	}
 
-	//perguntar ao prof
 	public void tidyTable()
 	{
-		//ver se link morreu ou ta ativo
-		Link[] links = thisRouter.getLinks();
-		int router;
-		for ( int i = 0; i<links.length; i++) {
-			if ( !links[i].isUp() ) {
-				router = getEnd(i, links);
-				RoutingTableEntry rte = new DVRoutingTableEntry(router, links[i].getInterface(router), INFINITY, 0);
-				rt.put(router, rte);
-			}
-			else {
-				router = getEnd(i, links);
-				RoutingTableEntry rte = new DVRoutingTableEntry(router, links[i].getInterface(router), thisRouter.getInterfaceWeight(links[i].getInterface(router)), 0);
-				rt.put(router, rte);
+		Iterator<Integer> it = rt.keySet().iterator();
+		while ( it.hasNext() ) {
+			RoutingTableEntry rte = rt.get(it.next());
+			boolean isUp = thisRouter.getInterfaceState(rte.getInterface());
+			if ( !isUp ) {
+				rte.setMetric(INFINITY);
 			}
 		}
-	}
-	
-	private int getEnd( int i, Link[] links) {
-		int router = links[i].getRouter(0);
-		if ( router == thisRouter.getId())
-			router = links[i].getRouter(1);
-		return router;
 	}
 
 	public Packet generateRoutingPacket(int iface)
@@ -91,29 +79,30 @@ public class DV implements RoutingAlgorithm
 		while ( it.hasNext() )
 			pl.addEntry(rt.get(it.next()));
 		pkt.setPayload(pl);
+		
 		return pkt;
 	}
 
 	public void processRoutingPacket(Packet p, int iface)
 	{
-		if ( rt.get(p.getSource()) == null ) {
-			RoutingTableEntry rte = new DVRoutingTableEntry(p.getSource(), iface, thisRouter.getInterfaceWeight(iface), p.get_ttl());
-			rt.put(p.getSource(), rte);
-		}
 		Payload pl = p.getPayload();
 		Vector<Object> v = pl.getData();
 		Iterator<Object> it = v.iterator();
+		//iterar as entradas recebidas
 		while ( it.hasNext() ) {
 			RoutingTableEntry rte = (RoutingTableEntry) it.next();
 			RoutingTableEntry rteLocal = rt.get(rte.getDestination());
 			
-			if ( rteLocal == null)
-				rt.put(rte.getDestination(), rte);
-			
+			//acabei de conhecer um destino novo
+			if ( rteLocal == null) {
+				rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), 0);
+				rt.put(rteLocal.getDestination(), rteLocal);
+			}
+			//o caminho deste e menor que o que conhecia
 			else if ( rteLocal.getMetric() > ( rte.getMetric() + thisRouter.getInterfaceWeight(iface)) ){
 				rteLocal.setMetric(rte.getMetric() + thisRouter.getInterfaceWeight(iface));
 				rteLocal.setInterface(iface);
-				rt.put(rte.getDestination(), rteLocal);
+				rt.put(rteLocal.getDestination(), rteLocal);
 			}
 		}
 	}
