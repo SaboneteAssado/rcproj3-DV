@@ -523,24 +523,24 @@ Pkt stats for 4 :  s 40 r 38 d 0 f 0
 Router 0
 d 0 i -1 m 0
 d 1 i 0 m 1
-d 2 i 0 m 2
-d 3 i 0 m 3
+d 2 i 1 m 5
+d 3 i 1 m 4
 d 4 i 1 m 3
 Router 1
 d 0 i 0 m 1
 d 1 i -1 m 0
-d 2 i 0 m 3
-d 3 i 0 m 4
+d 2 i 0 m 6
+d 3 i 0 m 5
 d 4 i 0 m 4
 Router 2
-d 0 i 1 m 4
-d 1 i 1 m 3
+d 0 i 1 m 5
+d 1 i 1 m 5
 d 2 i -1 m 0
 d 3 i 1 m 1
 d 4 i 1 m 2
 Router 3
-d 0 i 0 m 3
-d 1 i 0 m 2
+d 0 i 1 m 4
+d 1 i 1 m 4
 d 2 i 0 m 1
 d 3 i -1 m 0
 d 4 i 1 m 1
@@ -570,24 +570,24 @@ Pkt stats for 4 :  s 42 r 40 d 0 f 0
 Router 0
 d 0 i -1 m 0
 d 1 i 0 m 1
-d 2 i 0 m 2
-d 3 i 0 m 3
+d 2 i 1 m 5
+d 3 i 1 m 4
 d 4 i 1 m 3
 Router 1
 d 0 i 0 m 1
 d 1 i -1 m 0
-d 2 i 0 m 3
-d 3 i 0 m 4
+d 2 i 0 m 6
+d 3 i 0 m 5
 d 4 i 0 m 4
 Router 2
-d 0 i 1 m 4
-d 1 i 1 m 3
+d 0 i 1 m 5
+d 1 i 1 m 5
 d 2 i -1 m 0
 d 3 i 1 m 1
 d 4 i 1 m 2
 Router 3
-d 0 i 0 m 3
-d 1 i 0 m 2
+d 0 i 1 m 4
+d 1 i 1 m 4
 d 2 i 0 m 1
 d 3 i -1 m 0
 d 4 i 1 m 1
@@ -617,24 +617,24 @@ Pkt stats for 4 :  s 44 r 42 d 0 f 0
 Router 0
 d 0 i -1 m 0
 d 1 i 0 m 1
-d 2 i 0 m 2
-d 3 i 0 m 3
+d 2 i 1 m 5
+d 3 i 1 m 4
 d 4 i 1 m 3
 Router 1
 d 0 i 0 m 1
 d 1 i -1 m 0
-d 2 i 0 m 3
-d 3 i 0 m 4
+d 2 i 0 m 6
+d 3 i 0 m 5
 d 4 i 0 m 4
 Router 2
-d 0 i 1 m 4
-d 1 i 1 m 3
+d 0 i 1 m 5
+d 1 i 1 m 5
 d 2 i -1 m 0
 d 3 i 1 m 1
 d 4 i 1 m 2
 Router 3
-d 0 i 0 m 3
-d 1 i 0 m 2
+d 0 i 1 m 4
+d 1 i 1 m 4
 d 2 i 0 m 1
 d 3 i -1 m 0
 d 4 i 1 m 1
@@ -664,24 +664,24 @@ Pkt stats for 4 :  s 46 r 44 d 0 f 0
 Router 0
 d 0 i -1 m 0
 d 1 i 0 m 1
-d 2 i 0 m 2
-d 3 i 0 m 3
+d 2 i 1 m 5
+d 3 i 1 m 4
 d 4 i 1 m 3
 Router 1
 d 0 i 0 m 1
 d 1 i -1 m 0
-d 2 i 0 m 3
-d 3 i 0 m 4
+d 2 i 0 m 6
+d 3 i 0 m 5
 d 4 i 0 m 4
 Router 2
-d 0 i 1 m 4
-d 1 i 1 m 3
+d 0 i 1 m 5
+d 1 i 1 m 5
 d 2 i -1 m 0
 d 3 i 1 m 1
 d 4 i 1 m 2
 Router 3
-d 0 i 0 m 3
-d 1 i 0 m 2
+d 0 i 1 m 4
+d 1 i 1 m 4
 d 2 i 0 m 1
 d 3 i -1 m 0
 d 4 i 1 m 1
@@ -699,20 +699,13 @@ Time :29
 Time :30
 Forwarded packet src 0 dst 3 type 1 ttl 254 seq 2 path
 Time :31
-Forwarded packet src 0 dst 3 type 1 ttl 253 seq 2 path (0.0->1.0)
+Forwarded packet src 0 dst 3 type 1 ttl 253 seq 2 path (0.1->4.0)
 Time :32
-Forwarded packet src 0 dst 3 type 1 ttl 252 seq 2 path (0.0->1.0) (1.0->0.0)
+Received packet src 0 dst 3 type 1 ttl 253 seq 2 path (0.1->4.0) (4.1->3.1)
 Time :33
-Forwarded packet src 0 dst 3 type 1 ttl 251 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0)
 Time :34
-Forwarded packet src 0 dst 3 type 1 ttl 250 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
 Time :35
-Forwarded packet src 0 dst 3 type 1 ttl 249 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
 Time :36
-Forwarded packet src 0 dst 3 type 1 ttl 248 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
 Time :37
-Forwarded packet src 0 dst 3 type 1 ttl 247 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)
 Time :38
-Forwarded packet src 0 dst 3 type 1 ttl 246 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0)
 Time :39
-Forwarded packet src 0 dst 3 type 1 ttl 245 seq 2 path (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0) (1.0->0.0) (0.0->1.0)

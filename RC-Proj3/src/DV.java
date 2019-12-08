@@ -47,7 +47,7 @@ public class DV implements RoutingAlgorithm
 
 	public void initalise()
 	{
-		RoutingTableEntry rte = new DVRoutingTableEntry(thisRouter.getId(), LOCAL, 0, 0);
+		RoutingTableEntry rte = new DVRoutingTableEntry(thisRouter.getId(), LOCAL, 0, thisRouter.getCurrentTime());
 		rt.put(rte.getDestination(), rte);
 	}
 
@@ -67,11 +67,15 @@ public class DV implements RoutingAlgorithm
 			int iface = rte.getInterface();
 			if ( iface > -1 ) {
 				boolean isUp = thisRouter.getInterfaceState(iface);
-				//haver outro caminho muda sempre para infinito
+				//se caminho esta down mudo para INFINITY
 				if ( !isUp ) {
 					rte.setMetric(INFINITY);
+					rte.setTime(thisRouter.getCurrentTime());
 					rt.put(rte.getDestination(), rte);
 				}
+				//se for infinito, expire ativo e 3*interval e o currentTime() apaga-se a entrada
+				else if ( ( rte.getMetric() == INFINITY ) && ( rte.getTime() + 3*interval == thisRouter.getCurrentTime() ) && expire)
+					rt.remove(rte.getDestination());
 			}
 		}
 	}
@@ -81,10 +85,19 @@ public class DV implements RoutingAlgorithm
 		Packet pkt = new RoutingPacket(thisRouter.getId(), BROADCAST);
 		Payload pl = new Payload();
 		Iterator<Integer> it = rt.keySet().iterator();
-		while ( it.hasNext() )
-			pl.addEntry(rt.get(it.next()));
+		while ( it.hasNext() ) {
+			int key = it.next();
+			RoutingTableEntry rte = rt.get(key);
+			//se poison reverse esta true, so envia as entradas que passam pela interface que bem ou eu proprio
+			if ( pReverse ) {
+				if ( rte.getInterface() == iface || rte.getInterface() == LOCAL ) {
+					pl.addEntry(rte);
+				}
+			}
+			//senao adiciona tudo
+			else pl.addEntry(rte);
+		}
 		pkt.setPayload(pl);
-
 		return pkt;
 	}
 
@@ -100,13 +113,14 @@ public class DV implements RoutingAlgorithm
 
 			//acabei de conhecer um destino novo
 			if ( rteLocal == null) {
-				rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), 0);
+				rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), thisRouter.getCurrentTime());
 				rt.put(rteLocal.getDestination(), rteLocal);
 			}
 			//recebeu um infinito aka desconhecido
 			else if ( rte.getMetric() == INFINITY ) {
 				if ( rteLocal.getInterface() == iface ) {
 					rteLocal.setMetric(INFINITY);
+					rteLocal.setTime(thisRouter.getCurrentTime());
 					rt.put(rteLocal.getDestination(), rteLocal);
 				}
 			}
@@ -114,6 +128,7 @@ public class DV implements RoutingAlgorithm
 			else if ( rteLocal.getMetric() > ( rte.getMetric() + thisRouter.getInterfaceWeight(iface)) ){
 				rteLocal.setMetric(rte.getMetric() + thisRouter.getInterfaceWeight(iface));
 				rteLocal.setInterface(iface);
+				rteLocal.setTime(thisRouter.getCurrentTime());
 				rt.put(rteLocal.getDestination(), rteLocal);
 			}
 		}
