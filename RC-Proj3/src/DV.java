@@ -72,22 +72,8 @@ public class DV implements RoutingAlgorithm
 					rte.setMetric(INFINITY);
 					rt.put(rte.getDestination(), rte);
 				}
-				//voltou a cima ver se e mais pequena e mudar ou entao se e desconhecido
-				else if ( isUp && rte.getMetric()==INFINITY ) {
-					rte.setMetric(thisRouter.getInterfaceWeight(iface));
-					rt.put(rte.getDestination(), rte);
-				}
 			}
 		}
-		
-//		Iterator<Integer> it = rt.keySet().iterator();
-//		while ( it.hasNext() ) {
-//			RoutingTableEntry rte = rt.get(it.next());
-//			boolean isUp = thisRouter.getInterfaceState(rte.getInterface());
-//			if ( !isUp ) {
-//				rte.setMetric(INFINITY);
-//			}
-//		}
 	}
 
 	public Packet generateRoutingPacket(int iface)
@@ -116,6 +102,13 @@ public class DV implements RoutingAlgorithm
 			if ( rteLocal == null) {
 				rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), 0);
 				rt.put(rteLocal.getDestination(), rteLocal);
+			}
+			//recebeu um infinito aka desconhecido
+			else if ( rte.getMetric() == INFINITY ) {
+				if ( rteLocal.getInterface() == iface ) {
+					rteLocal.setMetric(INFINITY);
+					rt.put(rteLocal.getDestination(), rteLocal);
+				}
 			}
 			//o caminho deste e menor que o que conhecia
 			else if ( rteLocal.getMetric() > ( rte.getMetric() + thisRouter.getInterfaceWeight(iface)) ){
