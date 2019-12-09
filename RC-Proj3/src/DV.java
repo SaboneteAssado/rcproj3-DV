@@ -64,11 +64,12 @@ public class DV implements RoutingAlgorithm
 		Iterator<Integer> it = rt.keySet().iterator();
 		while ( it.hasNext() ) {
 			RoutingTableEntry rte = rt.get(it.next());
+			RoutingTableEntry rteLocal = rt.get(rte.getDestination());
 			int iface = rte.getInterface();
 			if ( iface > -1 ) {
 				boolean isUp = thisRouter.getInterfaceState(iface);
 				//se caminho esta down mudo para INFINITY
-				if ( !isUp ) {
+				if ( !isUp && rteLocal.getMetric() != INFINITY ) {
 					rte.setMetric(INFINITY);
 					rte.setTime(thisRouter.getCurrentTime());
 					rt.put(rte.getDestination(), rte);
@@ -106,6 +107,7 @@ public class DV implements RoutingAlgorithm
 		Payload pl = p.getPayload();
 		Vector<Object> v = pl.getData();
 		Iterator<Object> it = v.iterator();
+
 		//iterar as entradas recebidas
 		while ( it.hasNext() ) {
 			RoutingTableEntry rte = (RoutingTableEntry) it.next();
@@ -116,15 +118,19 @@ public class DV implements RoutingAlgorithm
 				rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), thisRouter.getCurrentTime());
 				rt.put(rteLocal.getDestination(), rteLocal);
 			}
-			//recebeu um infinito aka desconhecido
-			else if ( rte.getMetric() == INFINITY ) {
-				if ( rteLocal.getInterface() == iface ) {
-					rteLocal.setMetric(INFINITY);
-					rteLocal.setTime(thisRouter.getCurrentTime());
-					rt.put(rteLocal.getDestination(), rteLocal);
+			//usa essa interface para chegar ao destino
+			else if ( rteLocal.getInterface() == iface ) {
+				//recebeu um infinito
+				if ( rte.getMetric() == INFINITY) {
+					rteLocal.setMetric(rte.getMetric());
 				}
+				//atualiza o custo
+				else rteLocal.setMetric(rte.getMetric()+thisRouter.getInterfaceWeight(iface));
+				
+				rteLocal.setTime(thisRouter.getCurrentTime());
+				rt.put(rteLocal.getDestination(), rteLocal);
 			}
-			//o caminho deste e menor que o que conhecia
+			//o caminho nao usa a inteface e e menor que o que conhecia
 			else if ( rteLocal.getMetric() > ( rte.getMetric() + thisRouter.getInterfaceWeight(iface)) ){
 				rteLocal.setMetric(rte.getMetric() + thisRouter.getInterfaceWeight(iface));
 				rteLocal.setInterface(iface);
