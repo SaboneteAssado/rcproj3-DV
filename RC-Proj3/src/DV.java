@@ -18,12 +18,11 @@ public class DV implements RoutingAlgorithm
 	boolean pReverse = false, expire = false;
 
 	// declare your routing table here using DVRoutingTableEntry (see end of this file)
-	Map<Integer, RoutingTableEntry> rt, tmp;
+	Map<Integer, RoutingTableEntry> rt;
 	
 	public DV()
 	{
 		rt = new HashMap<Integer, RoutingTableEntry>();
-		tmp = new HashMap<Integer, RoutingTableEntry>();
 	}
 
 	public void setRouterObject(Router obj)
@@ -91,14 +90,14 @@ public class DV implements RoutingAlgorithm
 		while ( it.hasNext() ) {
 			int key = it.next();
 			RoutingTableEntry rte = rt.get(key);
-			//se poison reverse esta true, so envia as entradas que passam pela interface que bem ou eu proprio
+			//se poison reverse esta true, so envia as entradas que passam pela interface que vai ou ele proprio
 			if ( pReverse ) {
 				if ( rte.getInterface() == iface || rte.getInterface() == LOCAL ) {
-					pl.addEntry(rte);
+					pl.addEntry(new DVRoutingTableEntry(rte.getDestination(), rte.getInterface(), rte.getMetric(), rte.getTime()));
 				}
 			}
 			//senao adiciona tudo
-			else pl.addEntry(rte);
+			else pl.addEntry(new DVRoutingTableEntry(rte.getDestination(), rte.getInterface(), rte.getMetric(), rte.getTime()));
 		}
 		pkt.setPayload(pl);
 		return pkt;
@@ -110,8 +109,6 @@ public class DV implements RoutingAlgorithm
 		Vector<Object> v = pl.getData();
 		Iterator<Object> it = v.iterator();
 
-		Map<Integer, RoutingTableEntry> tmp = new HashMap<Integer, RoutingTableEntry>();
-
 		//iterar as entradas recebidas
 		while ( it.hasNext() ) {
 			RoutingTableEntry rte = (RoutingTableEntry) it.next();
@@ -120,7 +117,7 @@ public class DV implements RoutingAlgorithm
 			//acabei de conhecer um destino novo
 			if ( rteLocal == null) {
 				rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), thisRouter.getCurrentTime());
-				tmp.put(rteLocal.getDestination(), rteLocal);
+				rt.put(rteLocal.getDestination(), rteLocal);
 			}
 			//usa essa interface para chegar ao destino
 			else if ( rteLocal.getInterface() == iface ) {
@@ -132,23 +129,16 @@ public class DV implements RoutingAlgorithm
 				else rteLocal.setMetric(rte.getMetric()+thisRouter.getInterfaceWeight(iface));
 
 				rteLocal.setTime(thisRouter.getCurrentTime());
-				tmp.put(rteLocal.getDestination(), rteLocal);
+				rt.put(rteLocal.getDestination(), rteLocal);
 			}
 			//o caminho nao usa a inteface e e menor que o que conhecia
 			else if ( rteLocal.getMetric() > ( rte.getMetric() + thisRouter.getInterfaceWeight(iface)) ){
 				rteLocal.setMetric(rte.getMetric() + thisRouter.getInterfaceWeight(iface));
 				rteLocal.setInterface(iface);
 				rteLocal.setTime(thisRouter.getCurrentTime());
-				tmp.put(rteLocal.getDestination(), rteLocal);
+				rt.put(rteLocal.getDestination(), rteLocal);
 			}
 		}
-
-		Iterator<Integer> ite = tmp.keySet().iterator();
-		while ( ite.hasNext() ){
-			RoutingTableEntry rte = tmp.get(ite.next());
-			rt.put(rte.getDestination(), rte);
-		}
-
 	}
 
 
@@ -200,4 +190,3 @@ class DVRoutingTableEntry implements RoutingTableEntry
 		return null; //"" + d + " " + i + " " + m + " " + t;
 	}
 }
-
