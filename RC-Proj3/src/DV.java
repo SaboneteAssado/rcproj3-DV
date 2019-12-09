@@ -16,13 +16,14 @@ public class DV implements RoutingAlgorithm
 	Router thisRouter = null;  // the router were this algorithm is running
 	int interval = 0;
 	boolean pReverse = false, expire = false;
-	Map<Integer, RoutingTableEntry> rt;
 
 	// declare your routing table here using DVRoutingTableEntry (see end of this file)
-
+	Map<Integer, RoutingTableEntry> rt, tmp;
+	
 	public DV()
 	{
 		rt = new HashMap<Integer, RoutingTableEntry>();
+		tmp = new HashMap<Integer, RoutingTableEntry>();
 	}
 
 	public void setRouterObject(Router obj)
@@ -49,6 +50,7 @@ public class DV implements RoutingAlgorithm
 	{
 		RoutingTableEntry rte = new DVRoutingTableEntry(thisRouter.getId(), LOCAL, 0, thisRouter.getCurrentTime());
 		rt.put(rte.getDestination(), rte);
+
 	}
 
 	public int getNextHop(int destination)
@@ -108,6 +110,8 @@ public class DV implements RoutingAlgorithm
 		Vector<Object> v = pl.getData();
 		Iterator<Object> it = v.iterator();
 
+		Map<Integer, RoutingTableEntry> tmp = new HashMap<Integer, RoutingTableEntry>();
+
 		//iterar as entradas recebidas
 		while ( it.hasNext() ) {
 			RoutingTableEntry rte = (RoutingTableEntry) it.next();
@@ -116,7 +120,7 @@ public class DV implements RoutingAlgorithm
 			//acabei de conhecer um destino novo
 			if ( rteLocal == null) {
 				rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), thisRouter.getCurrentTime());
-				rt.put(rteLocal.getDestination(), rteLocal);
+				tmp.put(rteLocal.getDestination(), rteLocal);
 			}
 			//usa essa interface para chegar ao destino
 			else if ( rteLocal.getInterface() == iface ) {
@@ -126,19 +130,27 @@ public class DV implements RoutingAlgorithm
 				}
 				//atualiza o custo
 				else rteLocal.setMetric(rte.getMetric()+thisRouter.getInterfaceWeight(iface));
-				
+
 				rteLocal.setTime(thisRouter.getCurrentTime());
-				rt.put(rteLocal.getDestination(), rteLocal);
+				tmp.put(rteLocal.getDestination(), rteLocal);
 			}
 			//o caminho nao usa a inteface e e menor que o que conhecia
 			else if ( rteLocal.getMetric() > ( rte.getMetric() + thisRouter.getInterfaceWeight(iface)) ){
 				rteLocal.setMetric(rte.getMetric() + thisRouter.getInterfaceWeight(iface));
 				rteLocal.setInterface(iface);
 				rteLocal.setTime(thisRouter.getCurrentTime());
-				rt.put(rteLocal.getDestination(), rteLocal);
+				tmp.put(rteLocal.getDestination(), rteLocal);
 			}
 		}
+
+		Iterator<Integer> ite = tmp.keySet().iterator();
+		while ( ite.hasNext() ){
+			RoutingTableEntry rte = tmp.get(ite.next());
+			rt.put(rte.getDestination(), rte);
+		}
+
 	}
+
 
 	public void showRoutes()
 	{
