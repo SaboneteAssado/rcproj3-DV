@@ -56,9 +56,7 @@ public class DV implements RoutingAlgorithm
 	{
 		RoutingTableEntry rte = rt.get(destination);
 		if ( rte != null ) {
-			if ( rte.getMetric() == INFINITY)
-				return UNKNOWN;
-			return rte.getInterface();
+			return rte.getMetric() == INFINITY ? UNKNOWN : rte.getInterface();
 		}
 		return UNKNOWN;
 	}
@@ -77,8 +75,8 @@ public class DV implements RoutingAlgorithm
 					rte.setTime(thisRouter.getCurrentTime());
 					rt.put(rte.getDestination(), rte);
 				}
-				//se for infinito, expire ativo e 3*interval e o currentTime() apaga-se a entrada
-				else if ( ( rte.getMetric() == INFINITY ) && ( (rte.getTime() + 3*interval) == thisRouter.getCurrentTime() ) && expire)
+				//se for infinito, expire ativo e 3*interval == currentTime() apaga-se a entrada
+				else if ( ( rte.getMetric() == INFINITY ) && ( (rte.getTime() + 3*interval) <= thisRouter.getCurrentTime() ) && expire)
 					it.remove();
 			}
 		}
