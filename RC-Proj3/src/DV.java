@@ -19,7 +19,7 @@ public class DV implements RoutingAlgorithm
 
 	// declare your routing table here using DVRoutingTableEntry (see end of this file)
 	Map<Integer, RoutingTableEntry> rt;
-	
+
 	public DV()
 	{
 		rt = new HashMap<Integer, RoutingTableEntry>();
@@ -55,9 +55,12 @@ public class DV implements RoutingAlgorithm
 	public int getNextHop(int destination)
 	{
 		RoutingTableEntry rte = rt.get(destination);
-		if ( rte != null )
+		if ( rte != null ) {
+			if ( rte.getMetric() == INFINITY)
+				return UNKNOWN;
 			return rte.getInterface();
-		return -2;
+		}
+		return UNKNOWN;
 	}
 
 	public void tidyTable()
@@ -65,19 +68,18 @@ public class DV implements RoutingAlgorithm
 		Iterator<Integer> it = rt.keySet().iterator();
 		while ( it.hasNext() ) {
 			RoutingTableEntry rte = rt.get(it.next());
-			RoutingTableEntry rteLocal = rt.get(rte.getDestination());
 			int iface = rte.getInterface();
 			if ( iface > -1 ) {
 				boolean isUp = thisRouter.getInterfaceState(iface);
 				//se caminho esta down mudo para INFINITY
-				if ( !isUp && rteLocal.getMetric() != INFINITY ) {
+				if ( !isUp && rte.getMetric() != INFINITY ) {
 					rte.setMetric(INFINITY);
 					rte.setTime(thisRouter.getCurrentTime());
 					rt.put(rte.getDestination(), rte);
 				}
 				//se for infinito, expire ativo e 3*interval e o currentTime() apaga-se a entrada
-				else if ( ( rte.getMetric() == INFINITY ) && ( rte.getTime() + 3*interval == thisRouter.getCurrentTime() ) && expire)
-					rt.remove(rte.getDestination());
+				else if ( ( rte.getMetric() == INFINITY ) && ( (rte.getTime() + 3*interval) == thisRouter.getCurrentTime() ) && expire)
+					it.remove();
 			}
 		}
 	}
@@ -90,11 +92,9 @@ public class DV implements RoutingAlgorithm
 		while ( it.hasNext() ) {
 			int key = it.next();
 			RoutingTableEntry rte = rt.get(key);
-			//se poison reverse esta true, so envia as entradas que passam pela interface que vai ou ele proprio
-			if ( pReverse ) {
-				if ( rte.getInterface() == iface || rte.getInterface() == LOCAL ) {
-					pl.addEntry(new DVRoutingTableEntry(rte.getDestination(), rte.getInterface(), rte.getMetric(), rte.getTime()));
-				}
+			//se poison reverse esta true, entradas por iface sao INFINITY
+			if ( pReverse && rte.getInterface() == iface) {
+				pl.addEntry(new DVRoutingTableEntry(rte.getDestination(), rte.getInterface(), INFINITY, rte.getTime()));
 			}
 			//senao adiciona tudo
 			else pl.addEntry(new DVRoutingTableEntry(rte.getDestination(), rte.getInterface(), rte.getMetric(), rte.getTime()));
