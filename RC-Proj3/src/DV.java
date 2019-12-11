@@ -73,7 +73,6 @@ public class DV implements RoutingAlgorithm
 				if ( !isUp && rte.getMetric() != INFINITY ) {
 					rte.setMetric(INFINITY);
 					rte.setTime(thisRouter.getCurrentTime());
-					rt.put(rte.getDestination(), rte);
 				}
 				//se for infinito, expire ativo e 3*interval == currentTime() apaga-se a entrada
 				else if ( ( rte.getMetric() == INFINITY ) && ( (rte.getTime() + 3*interval) <= thisRouter.getCurrentTime() ) && expire)
@@ -112,29 +111,29 @@ public class DV implements RoutingAlgorithm
 			RoutingTableEntry rte = (RoutingTableEntry) it.next();
 			RoutingTableEntry rteLocal = rt.get(rte.getDestination());
 
-			//acabei de conhecer um destino novo
-			if ( rteLocal == null) {
-				rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), thisRouter.getCurrentTime());
-				rt.put(rteLocal.getDestination(), rteLocal);
-			}
-			//usa essa interface para chegar ao destino
-			else if ( rteLocal.getInterface() == iface ) {
-				//recebeu um infinito
-				if ( rte.getMetric() == INFINITY) {
-					rteLocal.setMetric(rte.getMetric());
+			if (rteLocal == null) {
+				if ( rte.getMetric()!=INFINITY ) {
+					rteLocal = new DVRoutingTableEntry(rte.getDestination(), iface, rte.getMetric() + thisRouter.getInterfaceWeight(iface), thisRouter.getCurrentTime());
+					rt.put(rteLocal.getDestination(), rteLocal);
 				}
-				//atualiza o custo
-				else rteLocal.setMetric(rte.getMetric()+thisRouter.getInterfaceWeight(iface));
+			}else {
+				//usa essa interface para chegar ao destino
+				if ( rteLocal.getInterface() == iface ) {
+					//recebeu um infinito
+					if ( rte.getMetric() == INFINITY) {
+						rteLocal.setMetric(rte.getMetric());
+					}
+					//atualiza o custo
+					else rteLocal.setMetric(rte.getMetric()+thisRouter.getInterfaceWeight(iface));
 
-				rteLocal.setTime(thisRouter.getCurrentTime());
-				rt.put(rteLocal.getDestination(), rteLocal);
-			}
-			//o caminho nao usa a inteface e e menor que o que conhecia
-			else if ( rteLocal.getMetric() > ( rte.getMetric() + thisRouter.getInterfaceWeight(iface)) ){
-				rteLocal.setMetric(rte.getMetric() + thisRouter.getInterfaceWeight(iface));
-				rteLocal.setInterface(iface);
-				rteLocal.setTime(thisRouter.getCurrentTime());
-				rt.put(rteLocal.getDestination(), rteLocal);
+					rteLocal.setTime(thisRouter.getCurrentTime());
+				}
+				//o caminho nao usa a inteface e e menor que o que conhecia
+				else if ( rteLocal.getMetric() > ( rte.getMetric() + thisRouter.getInterfaceWeight(iface)) ){
+					rteLocal.setMetric(rte.getMetric() + thisRouter.getInterfaceWeight(iface));
+					rteLocal.setInterface(iface);
+					rteLocal.setTime(thisRouter.getCurrentTime());
+				}
 			}
 		}
 	}
