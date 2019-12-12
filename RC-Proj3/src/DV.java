@@ -118,13 +118,13 @@ public class DV implements RoutingAlgorithm
 				}
 			}
 			//usa essa interface para chegar ao destino
-			else if ( rteLocal.getInterface() == iface) {
+			else if ( rteLocal.getInterface() == iface && rteLocal.getMetric() < INFINITY) {
 				//atualiza o custo
 				if ( rte.getMetric()+thisRouter.getInterfaceWeight(iface) < INFINITY ) {
 					rteLocal.setMetric(rte.getMetric()+thisRouter.getInterfaceWeight(iface));
 					rteLocal.setTime(thisRouter.getCurrentTime());
 				}
-				else if ( rteLocal.getMetric() < INFINITY){
+				else {
 					rteLocal.setMetric(INFINITY);
 					rteLocal.setTime(thisRouter.getCurrentTime());
 				}
