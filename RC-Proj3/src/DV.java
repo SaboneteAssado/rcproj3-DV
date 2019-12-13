@@ -67,7 +67,7 @@ public class DV implements RoutingAlgorithm
 		while ( it.hasNext() ) {
 			RoutingTableEntry rte = rt.get(it.next());
 			int iface = rte.getInterface();
-			if ( iface > -1 ) {
+			if ( iface > LOCAL ) {
 				boolean isUp = thisRouter.getInterfaceState(iface);
 				//se caminho esta down mudo para INFINITY
 				if ( !isUp && rte.getMetric() != INFINITY ) {
