@@ -117,7 +117,7 @@ public class DV implements RoutingAlgorithm
 					rt.put(rteLocal.getDestination(), rteLocal);
 				}
 			}
-			//usa essa interface para chegar ao destino
+			//usa essa interface para chegar ao destino e a entrada nao esta a infinito
 			else if ( rteLocal.getInterface() == iface && rteLocal.getMetric() < INFINITY) {
 				//atualiza o custo
 				if ( rte.getMetric()+thisRouter.getInterfaceWeight(iface) < INFINITY ) {
